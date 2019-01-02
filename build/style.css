@@ -267,13 +267,15 @@ hr {
 .memList {
   color: black;
   text-align: left;
-  list-style-type: none;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: auto;
   padding: 20px;
   border: 1px solid #253885
 }
 
-.rightColumn {
-  margin-left: 15px;
+.memLine {
+  padding: 0;
+}
+
+.memCol {
+  padding: 0 15px 0 15px;
 }
