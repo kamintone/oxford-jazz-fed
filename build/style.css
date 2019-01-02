@@ -1,0 +1,279 @@
+.App {
+  text-align: center;
+}
+
+#header-box {
+  background-color: #253885;
+}
+
+#main {
+  width: 100%;
+}
+
+.App-logo {
+  float: left;
+  height: 100px;
+  margin-left: 50px;
+  margin-top: -20px;
+  border-radius: 5px;
+}
+
+.App-header {
+  background-color: #253885;
+  padding: 10px;
+  color: yellow;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* text-align: center;  */
+  font-family: "Times New Roman", serif;
+  margin: 0;
+}
+
+.App-subtitle {
+  /*font-family: "Times New Roman", serif;*/
+  text-align: center;
+  font-size: 1.2em;
+  /* margin-top: 10px; */
+  /* margin-bottom: 5px; */
+  /* clear: left; */
+/*  margin-left: 0;
+  margin-right: auto;
+*/}
+
+.App-img {
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.App-intro {
+  font-size: small;
+  margin-left: 15%;
+  margin-right: auto;
+}
+
+#App-content {
+  padding: 0 30px;
+  font-size: 1.1em;
+}
+
+#jfimage {
+  margin-top: -17px;
+  border: 1px solid blue;
+  width:100%;
+}
+
+.App-section {
+  border: 2px solid #253885;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(236, 238, 180);
+}
+
+.App-form {
+  margin-left: 5px;
+  margin-right: auto;
+  width: 290px;
+  float: left;
+  position: relative;
+  top: 5px;
+}
+
+.signed {
+  font-style: oblique;
+}
+#navbar {
+  width: 100%;
+  height: 95px;
+}
+
+#navbar ul {
+	/* width: 100%; */
+	/* height: 20px; */
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin: 10px 0 20px 0;
+	text-align: center;
+}
+
+#navbar ul a {
+	color: beige;
+  /* background-color: #253885; */
+  background-color: rgb(37, 56, 133);
+	background-repeat: no-repeat;
+	white-space: pre;
+  padding: 10px 15px 10px 14px;
+  margin: 0 5px 5px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+#navbar ul a:hover {
+  background-color: rgba(37, 56, 133, 0.7);
+}
+
+.section {
+  border: 2px solid #253885;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.section h3 {
+  padding-left: 10px;
+}
+
+.section p {
+  margin-left: 0;
+  font-size: 1.1em;
+}
+
+p {
+	text-align: left;
+  padding: 10px 15px 0 15px;
+  margin-bottom: -2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.home-img {
+  clear: both;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	background-color: beige; 
+	/*was #fbf1a9*/
+	margin: 0;
+	padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #253885;
+}
+
+h1, h2, h4, p, ul,li {
+	font-family: Arial, sans-serif;
+}
+
+h3 {
+	font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+	text-align: left;
+	margin-bottom: -8px;	
+}
+
+ul.header li {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+}
+
+ul.header {
+  padding: 0;
+  position: sticky;
+  top: 0px;
+}
+
+ul.header li a {
+	color: blue;
+	font-weight: bold;
+	font-size: 1em;
+  text-decoration: none;
+  border: 1px solid lightblue;
+	padding: 5px 15px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+ul.header li a:active {
+	text-decoration: none;
+	cursor: auto;
+}
+
+.weblink a:hover {
+  text-decoration: none;
+  /* color: red; */
+  cursor: pointer;
+  background-color: #253885;
+  color: beige;
+  /* padding: 1px; */
+}
+
+.weblink a {
+  float: left;
+  color: #253885;
+  background: linear-gradient(to top, rgba(144, 153, 238, 0.75), rgba(144, 153, 238, 0.25));
+  /* background-color: rgba(37, 56, 133, 0.1); */
+  border: solid 2px #253885;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 15px 10px 5px 10px;
+  padding: 10px;
+}
+
+#contact-details {
+  border: 2px solid #253885;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#contact-details h3 {
+  padding-left: 10px;
+  color: #253885;
+}
+
+#contact-details p {
+  margin-left: 5%;
+}
+
+#contact-details p {
+  background-color: rgba(144, 153, 238, 0.25);
+  width: 90%;
+  font-weight: bold;
+  color: #253885;
+  border: 1px solid #253885;
+  border-radius: 5px;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  color: #253885;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.get-members-button {
+  color: beige;
+  background-color: #253885;
+  padding: 10px;
+}
+
+.memList {
+  color: black;
+  text-align: left;
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
+  border: 1px solid #253885
+}
+
+.rightColumn {
+  margin-left: 15px;
+}
