@@ -1,18 +1,21 @@
 {
   "name": "ojf-new",
   "version": "1.0.0",
-  "description": "",
+  "description": "Oxfordshire Jazz Federation website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tony Davis",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "mailchimp-api-v3": "^1.12.1",
     "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "8.12"
   }
 }
