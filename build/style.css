@@ -37,7 +37,8 @@
 .App-subtitle {
   /*font-family: "Times New Roman", serif;*/
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.0em;
+  padding-right: 20px;
   /* margin-top: 10px; */
   /* margin-bottom: 5px; */
   /* clear: left; */
@@ -49,6 +50,7 @@
   margin-left: 0;
   margin-right: auto;
   margin-bottom: 8px;
+  margin-top: 3px;
   border: none;
   border-radius: 5px;
 }
@@ -61,11 +63,11 @@
 
 #App-content {
   padding: 0 30px;
-  font-size: 1.0em;
+  font-size: 0.9em;
 }
 
 #jfimage {
-  margin-top: -17px;
+  margin-top: 0px;
   border: 1px solid blue;
   width:100%;
 }
@@ -75,6 +77,11 @@
   border-radius: 5px;
   margin-bottom: 10px;
   background-color: rgb(236, 238, 180);
+}
+
+.App-section h3 {
+  padding-left: 12px;
+  font-size: 1.2em;
 }
 
 .App-form {
@@ -101,7 +108,7 @@
 	font-family: Verdana, Arial, sans-serif;
 	font-size: 0.8em;
 	font-weight: bold;
-	margin: 10px 0 20px 0;
+	margin: 10px 0 0px 0;
 	text-align: center;
 }
 
@@ -133,7 +140,7 @@
 
 .section p {
   margin-left: 0;
-  font-size: 1.1em;
+  font-size: 1.0em;
 }
 
 p {
@@ -141,11 +148,12 @@ p {
   padding: 10px 15px 0 15px;
   margin-bottom: -2px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .home-img {
   clear: both;
+  margin-bottom: 10px;
 }
 
 html {
@@ -271,6 +279,24 @@ hr {
   padding: 10px;
 }
 
+.register-button {
+  /* margin-right: 15px; */
+  /* margin-top: -10px; */
+  /* margin-bottom: 5px; */
+  font-size: 1.0em;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.sign-in-button {
+  /* margin-right: 15px; */
+  /* margin-top: -10px; */
+  /* margin-bottom: 5px; */
+  font-size: 1.0em;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
 .memList {
   color: black;
   text-align: left;
@@ -297,4 +323,19 @@ hr {
   width: 290px;
   position: relative;
   top: 5px;
+}
+
+#login-box {
+  float: right;
+  clear: left;
+  width: 160px;
+  height: 40px;
+  border: 2px solid #253885;
+}
+
+#logged-in-box {
+  margin-top: 5px;
+  padding-bottom: 5px;
+  background-color: #253885;
+  color: white;
 }
