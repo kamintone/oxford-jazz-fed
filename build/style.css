@@ -39,12 +39,8 @@
   text-align: center;
   font-size: 1.0em;
   padding-right: 20px;
-  /* margin-top: 10px; */
-  /* margin-bottom: 5px; */
-  /* clear: left; */
-/*  margin-left: 0;
-  margin-right: auto;
-*/}
+  margin-top: -10px;
+}
 
 .App-img {
   margin-left: 0;
@@ -100,6 +96,7 @@
 }
 #navbar {
   width: 100%;
+  clear: left;
 }
 
 #navbar ul {
@@ -122,6 +119,10 @@
   margin: 0 5px 5px 0;
   border: none;
   border-radius: 5px;
+}
+
+.not-in-use ul a {
+  background-color: blueviolet;
 }
 
 #navbar ul a:hover {
@@ -170,7 +171,7 @@ body {
   color: #253885;
 }
 
-h1, h2, h4, p, ul,li {
+h1, h2, h4, p, ul, li {
 	font-family: Arial, sans-serif;
 }
 
@@ -283,18 +284,24 @@ hr {
   /* margin-right: 15px; */
   /* margin-top: -10px; */
   /* margin-bottom: 5px; */
-  font-size: 1.0em;
+  float: left;
+  font-size: 0.9em;
   font-weight: bold;
-  padding-bottom: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  margin-top: -20px;
 }
 
-.sign-in-button {
+.login-button {
   /* margin-right: 15px; */
   /* margin-top: -10px; */
   /* margin-bottom: 5px; */
-  font-size: 1.0em;
+  float: left;
+  font-size: 0.9em;
   font-weight: bold;
-  padding-bottom: 5px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: -20px;
 }
 
 .memList {
