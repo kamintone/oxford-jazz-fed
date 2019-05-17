@@ -350,6 +350,17 @@ hr {
   text-transform: uppercase;
 }
 
+#logged-in-box {
+  float: right;
+  font-size: 0.8em;
+  font-weight: bold;
+  background-color: #f3fa95;
+  color: #253885;
+  padding: 5px;
+  margin-top: -5px;
+  text-transform: uppercase;
+}
+
 .memList {
   color: black;
   text-align: left;
@@ -376,19 +387,6 @@ hr {
   width: 290px;
   position: relative;
   top: 5px;
-}
-
-#logged-in-box {
-  float: right;
-  clear: left;
-  font-size: 0.8em;
-  font-weight: bold;
-  background-color: beige;
-  color: #253885;
-  padding: 5px;
-  margin-left: 10px;
-  margin-top: -25px;
-  text-transform: uppercase;
 }
 
 .emailButton {
