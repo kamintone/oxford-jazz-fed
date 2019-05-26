@@ -1,0 +1,199 @@
+commit 4132953e795fe534d31fce582a9e4ba962692697
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Sun May 26 15:08:39 2019 +0100
+
+    correct import Home-prod error
+
+commit 8fbf9a2d13883115edcc771dfa12cd251ce13d27
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Sun May 26 14:56:12 2019 +0100
+
+    New Stop Press
+
+commit 7e3e05b50c5d9e65ec4108a238566d29ad5796aa
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Sun May 26 14:53:38 2019 +0100
+
+    New Stop Press
+
+commit 396ba177916aac5b4e21c8c069b88dd0613f587c
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Sun May 26 14:52:55 2019 +0100
+
+    change Stop Press notice
+
+commit 0b6398bff66d4bb0108fda130dc80e3de5eba14d
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Sat May 25 19:26:10 2019 +0100
+
+    Stop Press for 19th June
+
+commit 98e712fdd2c54428e5bde501d79318d3454566af
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Sat May 25 19:19:39 2019 +0100
+
+    Stop Press for 19th June
+
+commit 800bb919ce888e9b770fe4708ff9ee3e6f0e44b5
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Sat May 25 19:19:04 2019 +0100
+
+    Stop Press for 19th June
+
+commit 523410f5b4e4e559d34e01328ab3e2515f8550c9
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Fri May 17 19:31:31 2019 +0100
+
+    Add prod file versions
+
+commit d1526df669e24894f291cbe73250d45c19c17dd0
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Thu May 16 19:50:49 2019 +0100
+
+    Return to test version
+
+commit ab41f8933379409cc85589ef80fa2b295d355755
+Merge: 0800c53 4f62f57
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Tue May 14 17:18:37 2019 +0100
+
+    Merge branch 'master' of https://github.com/kamintone/oxford-jazz-fed
+
+commit 0800c5362afabe95fc6aa2ad9147019958796103
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Tue May 14 17:04:09 2019 +0100
+
+    add stop press to home page
+
+commit 4f62f579cf2e36a6e16f80a3d8629c08dea505e1
+Author: kamintone <tony@tony-davis.co.uk>
+Date:   Tue Mar 19 19:38:05 2019 +0000
+
+    Add files via upload
+
+commit 448eb61045fa4af873e2e5c2779a93645d5f41fd
+Author: kamintone <tony@tony-davis.co.uk>
+Date:   Tue Mar 19 19:08:17 2019 +0000
+
+    Delete .env
+
+commit dbc0232865255a0d6c20cc1853b42d05684fb786
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Tue Mar 19 18:50:19 2019 +0000
+
+    Restore HttpsRedirect
+
+commit ed666dd9551437983e7d2a6a6558a82542dfd9fe
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Fri Mar 15 18:43:38 2019 +0000
+
+    Latest Jazzfinder
+
+commit 0333fc1af1714520bea649b557562f9e60cf3ab3
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Fri Mar 15 18:41:32 2019 +0000
+
+    Disabled Register and Login buttons
+
+commit f636e3df5a25a597e08cbbc04d5adf03d26de9d7
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Thu Mar 14 20:01:33 2019 +0000
+
+    Remove Admin button pro tem
+
+commit d37d0e55c7933055ff4d2e7b2339559b9aba141b
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Wed Mar 13 18:57:49 2019 +0000
+
+    Intermediate version with utilities folder added
+
+commit 467b23ddb87f6601de9190052ebf408e2431fb27
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Sun Feb 10 19:24:06 2019 +0000
+
+    Added HttpsRedirect
+
+commit 1659a337ab5cd5c87f68d4959019f121fb7143dd
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Mon Jan 21 18:11:32 2019 +0000
+
+    commit client
+
+commit d5fedd280d21559c8e71846c6801a768eb41f25c
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Mon Jan 21 18:10:25 2019 +0000
+
+    Add test single member
+
+commit 43145d2cc80da5bf4eedebc1d897ea241e9a3d69
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Thu Jan 3 18:54:39 2019 +0000
+
+    Final build for the present
+
+commit 90f138624d7fe1a95f150d1dca999ecf4c474913
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Thu Jan 3 16:53:06 2019 +0000
+
+    Amended .gitignore by removing build/
+
+commit 85faaad17971325f76e7d870b20babc77a35c2b9
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Thu Jan 3 16:48:22 2019 +0000
+
+    small change
+
+commit 4e85d2cf7e3d6dc9b3d437fba3594078a9834c8b
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Thu Jan 3 16:44:13 2019 +0000
+
+    Small change for testing
+
+commit 264b51a0fb67fcf472d8acd215ee1c753c2b26f4
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Thu Jan 3 15:21:16 2019 +0000
+
+    Add main...chunk.js[map
+    ]
+
+commit 01817214098c6d4237bda956be4a45802b83be75
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Thu Jan 3 14:50:22 2019 +0000
+
+    Removed .env from .gitignore
+
+commit f9f1e7ba3ee4f7309e629221d37a936e7acabdca
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Wed Jan 2 20:03:39 2019 +0000
+
+    Added /work to .gitignore
+
+commit 9ceef4ffad061cda2c2165b2dd6029284917dae0
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Wed Jan 2 20:00:16 2019 +0000
+
+    After formatting member list
+
+commit 7c22865d861e0d308539fc0bfd15f0124c10c947
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Wed Jan 2 14:51:17 2019 +0000
+
+    Add .env file
+
+commit 82ad133184615a2d3a1ff18af1f0c613eb274308
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Wed Jan 2 14:44:12 2019 +0000
+
+    Add Procfile; add node version no. to package.json
+
+commit ae0ab7d5a01c53cba343fe87ea4edee7aeb286aa
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Wed Jan 2 14:18:21 2019 +0000
+
+    Add client
+
+commit 62a029aeee2b46586ca2788abfb01e4448f7c8fe
+Author: Tony Davis <tony@tony-davis.co.uk>
+Date:   Wed Jan 2 14:17:36 2019 +0000
+
+    First commit
