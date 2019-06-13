@@ -230,6 +230,10 @@ ul.header li a:active {
 	cursor: auto;
 }
 
+.weblink {
+  display: flex;
+}
+
 .weblink a:hover {
   text-decoration: none;
   cursor: pointer;
@@ -358,7 +362,7 @@ hr {
   color: #253885;
   padding: 5px;
   margin-top: -5px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .memList {
