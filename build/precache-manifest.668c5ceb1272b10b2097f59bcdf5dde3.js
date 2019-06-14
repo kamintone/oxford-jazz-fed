@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "057b950cbd58ffe52dfd",
-    "url": "/static/js/main.ff22256a.chunk.js"
+    "revision": "b3d1f4b0fb89f6cdb725",
+    "url": "/static/js/main.574d1b19.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "a70396f730032cf8af0e",
+    "revision": "a3211464a666ba4b196e",
     "url": "/static/css/2.37d96f7f.chunk.css"
   },
   {
-    "revision": "a70396f730032cf8af0e",
-    "url": "/static/js/2.6af55b05.chunk.js"
+    "revision": "a3211464a666ba4b196e",
+    "url": "/static/js/2.2acee4d1.chunk.js"
   },
   {
     "revision": "d638f56a77526f6edb5195504ca34fc4",
     "url": "/static/media/hildward.d638f56a.jpg"
+  },
+  {
+    "revision": "f761c5b47af103fb37db4ebbf5775d75",
+    "url": "/static/media/big-band.f761c5b4.jpg"
   },
   {
     "revision": "3d9234974b51ed1e701d86a1ae745429",
@@ -72,7 +76,7 @@ self.__precacheManifest = [
     "url": "/static/media/jf-page-2.e6261f0d.jpg"
   },
   {
-    "revision": "0c124a97fcebd46908aaf2380039f197",
+    "revision": "214fd3b3994161f707f8e26c0868726c",
     "url": "/index.html"
   }
 ];
