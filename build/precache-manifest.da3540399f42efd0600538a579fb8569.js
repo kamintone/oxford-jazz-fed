@@ -1,31 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "5eb1c66264d2d852e4c1",
-    "url": "/static/js/main.d7940d9f.chunk.js"
+    "revision": "64593efdbb52698b6b9e",
+    "url": "/static/js/main.1dbf8724.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "a3211464a666ba4b196e",
+    "revision": "ffa73032a7b37660bcec",
     "url": "/static/css/2.37d96f7f.chunk.css"
   },
   {
-    "revision": "a3211464a666ba4b196e",
-    "url": "/static/js/2.2acee4d1.chunk.js"
+    "revision": "ffa73032a7b37660bcec",
+    "url": "/static/js/2.8d2b7240.chunk.js"
   },
   {
     "revision": "d638f56a77526f6edb5195504ca34fc4",
     "url": "/static/media/hildward.d638f56a.jpg"
-  },
-  {
-    "revision": "f761c5b47af103fb37db4ebbf5775d75",
-    "url": "/static/media/big-band.f761c5b4.jpg"
-  },
-  {
-    "revision": "3d9234974b51ed1e701d86a1ae745429",
-    "url": "/static/media/galvin-stakla.3d923497.png"
   },
   {
     "revision": "34eab5fcfd4f92fa9b6f821903ffafed",
@@ -76,7 +68,19 @@ self.__precacheManifest = [
     "url": "/static/media/jf-page-2.e6261f0d.jpg"
   },
   {
-    "revision": "e94e2db2c70b71e7a353afecdcfbcd05",
+    "revision": "f761c5b47af103fb37db4ebbf5775d75",
+    "url": "/static/media/big-band.f761c5b4.jpg"
+  },
+  {
+    "revision": "04927122824390d5e5c57169fe4153a9",
+    "url": "/static/media/alan.04927122.jpg"
+  },
+  {
+    "revision": "3d9234974b51ed1e701d86a1ae745429",
+    "url": "/static/media/galvin-stakla.3d923497.png"
+  },
+  {
+    "revision": "9f217fb822241fa257d5cdeb198cc6c1",
     "url": "/index.html"
   }
 ];
