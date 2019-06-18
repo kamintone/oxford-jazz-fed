@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "64593efdbb52698b6b9e",
-    "url": "/static/js/main.1dbf8724.chunk.js"
+    "revision": "a4ca1d0910f2381644bb",
+    "url": "/static/js/main.69b6742c.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "ffa73032a7b37660bcec",
+    "revision": "f2ef8458fd8786a3708b",
     "url": "/static/css/2.37d96f7f.chunk.css"
   },
   {
-    "revision": "ffa73032a7b37660bcec",
-    "url": "/static/js/2.8d2b7240.chunk.js"
+    "revision": "f2ef8458fd8786a3708b",
+    "url": "/static/js/2.d3185e80.chunk.js"
   },
   {
     "revision": "d638f56a77526f6edb5195504ca34fc4",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/static/media/galvin-stakla.3d923497.png"
   },
   {
-    "revision": "9f217fb822241fa257d5cdeb198cc6c1",
+    "revision": "9a8306e3aa3a3177278ccbbdf51b62d8",
     "url": "/index.html"
   }
 ];
