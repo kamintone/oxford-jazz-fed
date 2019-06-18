@@ -81,8 +81,10 @@
 .App-section {
   border: 2px solid #253885;
   border-radius: 5px;
+  margin: auto;
   margin-bottom: 10px;
   background-color: #eceeb4;
+  max-width: 95%;
 }
 
 .App-section h3 {
@@ -404,4 +406,12 @@ hr {
   background-color: rgba(37, 56, 133, 0.7);
   color: white;
   text-decoration: none;
+}
+
+.internal-link {
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: 100px;
+  margin-bottom: 20px;
 }
