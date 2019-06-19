@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "27261346aa308cbe27f6",
-    "url": "/static/js/main.a373e59a.chunk.js"
+    "revision": "95971c6a3298f92284e2",
+    "url": "/static/js/main.233a44b4.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/static/media/galvin-stakla.3d923497.png"
   },
   {
-    "revision": "5953915fad76679b8dc09e0bde3af2d0",
+    "revision": "08f7ba8becef94f6c352e9122dfffad1",
     "url": "/index.html"
   }
 ];
