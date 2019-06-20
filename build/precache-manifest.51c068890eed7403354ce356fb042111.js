@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "95971c6a3298f92284e2",
-    "url": "/static/js/main.233a44b4.chunk.js"
+    "revision": "4402c39d3936aeb995e9",
+    "url": "/static/js/main.fbe70834.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "ffa73032a7b37660bcec",
+    "revision": "fe8af55f7a4bb5936fc8",
     "url": "/static/css/2.37d96f7f.chunk.css"
   },
   {
-    "revision": "ffa73032a7b37660bcec",
-    "url": "/static/js/2.8d2b7240.chunk.js"
+    "revision": "fe8af55f7a4bb5936fc8",
+    "url": "/static/js/2.a2df3733.chunk.js"
   },
   {
     "revision": "d638f56a77526f6edb5195504ca34fc4",
@@ -68,6 +68,14 @@ self.__precacheManifest = [
     "url": "/static/media/jf-page-2.e6261f0d.jpg"
   },
   {
+    "revision": "056e873434f8330bd5b9df56cff53ed6",
+    "url": "/static/media/jf-page-3.056e8734.jpg"
+  },
+  {
+    "revision": "f5fccbef0eb7da3e7e9e930397a19319",
+    "url": "/static/media/jf-page-4.f5fccbef.jpg"
+  },
+  {
     "revision": "f761c5b47af103fb37db4ebbf5775d75",
     "url": "/static/media/big-band.f761c5b4.jpg"
   },
@@ -76,11 +84,7 @@ self.__precacheManifest = [
     "url": "/static/media/alan.04927122.jpg"
   },
   {
-    "revision": "3d9234974b51ed1e701d86a1ae745429",
-    "url": "/static/media/galvin-stakla.3d923497.png"
-  },
-  {
-    "revision": "08f7ba8becef94f6c352e9122dfffad1",
+    "revision": "814c790097c8ccf0a0e3788f5c77a5f5",
     "url": "/index.html"
   }
 ];
