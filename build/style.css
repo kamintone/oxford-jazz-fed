@@ -74,7 +74,8 @@
 
 #jfimage {
   margin-top: 0px;
-  border: 1px solid blue;
+  padding-top: 20px;
+  border: 1px solid black;
   width:100%;
 }
 
@@ -410,8 +411,22 @@ hr {
 
 .internal-link {
   text-align: left;
-  font-size: 1.5em;
+  font-size: .9em;
   font-weight: bold;
-  margin-right: 100px;
+  background-color: #253885;
+  color: #f3fa95;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
   margin-bottom: 20px;
+}
+
+.internal-link:hover {
+  color: #f3fa95;
+  text-decoration: none;
+}
+
+.jfpage {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
