@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "eef6bba6b87657b9b2da",
-    "url": "/static/js/main.9a255b3e.chunk.js"
+    "revision": "a66e518cd37f5d0d4310",
+    "url": "/static/js/main.d3819957.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "934b473c362444d25794",
+    "revision": "fe8af55f7a4bb5936fc8",
     "url": "/static/css/2.37d96f7f.chunk.css"
   },
   {
-    "revision": "934b473c362444d25794",
-    "url": "/static/js/2.2b41197c.chunk.js"
+    "revision": "fe8af55f7a4bb5936fc8",
+    "url": "/static/js/2.a2df3733.chunk.js"
   },
   {
     "revision": "d638f56a77526f6edb5195504ca34fc4",
@@ -38,6 +38,10 @@ self.__precacheManifest = [
   {
     "revision": "af093d70cd9c8b31762eeaa65b1d3246",
     "url": "/static/media/nick-gill-link.af093d70.png"
+  },
+  {
+    "revision": "fcc734f03d0712e26d77cf34a0d7c3a7",
+    "url": "/static/media/whitley-bay-link.fcc734f0.png"
   },
   {
     "revision": "102c6b0c4c6a4d3f19808ca1d342420a",
@@ -84,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/alan.04927122.jpg"
   },
   {
-    "revision": "49019d7946c2fbd8730f992a9ad9fad9",
+    "revision": "00cc004ca3e22ff54ca6bdb348172b5f",
     "url": "/index.html"
   }
 ];
