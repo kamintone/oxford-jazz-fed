@@ -10,12 +10,13 @@ var list_id = process.env.MAILING_LIST_ID
 
 const app = express()
 const mailchimp = new Mailchimp(mc_api_key)
-console.log("list id: ", list_id)
+
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static(path.resolve(__dirname, '.', 'build')))
 //routes
 app.get('/api/memberList', (req, res) => {
+  console.log("list id: ", list_id)
   mailchimp.get(`/lists/${list_id}/members?count=100`)
   .then(function(results){
     res.send(results)
