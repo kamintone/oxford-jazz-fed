@@ -20,7 +20,7 @@ app.get('/api/memberList', (req, res) => {
   console.log("url: ", url)
   console.log("api-key: ", mc_api_key)
   console.log("list id: ", list_id)
-  mailchimp.get(`${url}/lists/${list_id}/members?count=100`)
+  mailchimp.get(`/lists/${list_id}/members?count=100`)
   .then(function(results){
     res.send(results)
   })
