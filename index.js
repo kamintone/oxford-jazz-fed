@@ -16,7 +16,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static(path.resolve(__dirname, '.', 'build')))
 //routes
-app.get('/api/memberList', (req, res) => {
+app.get('/api/memberList', (_req, res) => {
   console.log("url: ", url)
   console.log("api-key: ", mc_api_key)
   console.log("list id: ", list_id)
@@ -59,7 +59,7 @@ app.patch('/api/getMember', (req, res) => {
 })
 
 //catch all handler
-app.get('*', (req, res) => {
+app.get('*', (_req, res) => {
   res.sendFile(path.join(__dirname, '.', 'build', 'index.html'))
 })
 
