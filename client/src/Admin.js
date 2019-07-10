@@ -35,10 +35,14 @@ class Admin extends Component {
         <div>
           <h1>OJF Members</h1>
           <h5>{`Total membership: ${this.state.totalItems}`}</h5>
+          <h5 style={{fontWeight: "normal", color: "red"}}>*has admin privileges</h5>
           <table className="memList">
             {
               members.map((member, index) =>
                 <tr className="memLine" key={index}>
+                <td className="memStar">
+                  {`${member.vip}` === "true" ? '*' : ' '}
+                </td>
                 <td className="memCol">
                   {`${member.merge_fields.FNAME} 
                   ${member.merge_fields.LNAME}: `}
@@ -61,6 +65,7 @@ class Admin extends Component {
       <div>
         <h1>OJF Members</h1>
         <button onClick={this.getMembers}>List All Members</button>
+        <p>&nbsp;</p>
       </div>
     )
   }

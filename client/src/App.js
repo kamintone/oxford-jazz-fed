@@ -8,7 +8,7 @@ import Footer from './Footer';
 import 'tachyons';
 
 const App = () => {
-  const [user, setUser] = useState('')
+  const [user, setUser] = useState('[name: Tony]')
   
   return (
     <div className="App">

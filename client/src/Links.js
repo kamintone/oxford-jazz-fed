@@ -7,10 +7,12 @@ import george from './images/george-link.png';
 import jude from './images/jude-link.png';
 import nick from './images/nick-gill-link.png';
 import whitley from './images/whitley-bay-link.png';
+import ojnetwork from './images/ojnetwork-link.png';
 import sandy from './images/sandy-link.png';
 import saxheaven from './images/sax-heaven-link.png';
 import shawnuff from './images/shawnuff-link.png';
 import slam from './images/slam-link.png';
+import stgiles from './images/st-giles-link.png';
 import tony from './images/tony-link.png';
 
 function Links() {
@@ -43,6 +45,10 @@ function Links() {
         target="_blank" rel="noopener noreferrer" alt="George Haslam" title="George Haslam">
         George Haslam  <img src={george} alt="" /></a></div>
         <div className="weblink">
+        <a href="http://www.jazzatstgiles.com/"
+        target="_blank" rel="noopener noreferrer" alt="Jazz at St Giles" title="Jazz at St Giles">
+        Jazz at St Giles  <img src={stgiles} alt="" /></a></div>
+        <div className="weblink">
         <a href="http://www.judyeames.co.uk/"
         target="_blank" rel="noopener noreferrer" alt="Judy Eames" title="Judy Eames">
         Judy Eames  <img src={jude} alt="" /></a></div>
@@ -54,6 +60,10 @@ function Links() {
         <a href="http://classicjazz.co.uk/"
         target="_blank" rel="noopener noreferrer" alt="Nick Gill Classic Jazz" title="Nick Gill Classic Jazz">
         Nick Gill Classic Jazz  <img src={nick} alt="" /></a></div>
+        <div className="weblink">
+        <a href="https://www.facebook.com/groups/1664835103799967/"
+        target="_blank" rel="noopener noreferrer" alt="Oxford Jazz Network" title="Oxford Jazz Network">
+        Oxford Jazz Network  <img src={ojnetwork} alt="" /></a></div>
         <div className="weblink">
         <a href="http://www.sandybrownjazz.co.uk/"
         target="_blank" rel="noopener noreferrer" alt="Sandy Brown Jazz" title="Sandy Brown Jazz">

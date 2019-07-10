@@ -384,9 +384,14 @@ hr {
 }
 
 .memCol {
-  padding: 0 15px 0 15px;
+  padding: 0 15px 0 5px;
 }
 
+.memStar {
+  font-size: 1.0rem;
+  color: red;
+  padding: 0 0 0 3px;
+}
 .prompt {
   background-color: rgb(236, 238, 180);
   border: solid 2px #253885;
