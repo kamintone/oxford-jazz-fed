@@ -10,7 +10,6 @@
     "styled-components": "^4.2.0",
     "tachyons": "^4.11.1"
   },
-  "proxy": "https://us17.api.mailchimp.com/3.0/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

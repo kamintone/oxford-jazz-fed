@@ -12,7 +12,9 @@ class Admin extends Component {
   // returns a JSON object with a key of "members" and
   // value of an array of objects
   getMembers = () => {
-    fetch("/api/memberList")
+    fetch("/api/memberList", {
+      "host": "https//us17.api.mailchimp.com/3.0"
+    })
     .then((res) => {
       return res.json()
     })

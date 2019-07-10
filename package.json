@@ -19,7 +19,6 @@
     "react-https-redirect": "^1.1.0",
     "styled-components": "^4.2.0"
   },
-  "proxy": "https://us17.api.mailchimp.com/3.0/",
   "engines": {
     "node": "8.12"
   }
