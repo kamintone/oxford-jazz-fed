@@ -7,7 +7,7 @@ import Modal from './utilities/Modal';
 
 import jazzfinder from './images/jazz-finder-faded.png';
 
-const Header = ({ user, isLoggedIn }) => {
+const Header = ({ user, setUser, isLoggedIn }) => {
   // console.log("User ", user.firstName)
   // console.log("is logged in: ", isLoggedIn)
   let inOut = "Login"
@@ -26,7 +26,7 @@ const Header = ({ user, isLoggedIn }) => {
           <Fragment>
             <button className="login-button" onClick={toggle}>{inOut}</button>
             <Modal on={on} toggle={toggle}>
-              <Login toggle={toggle} />
+              <Login toggle={toggle} user={user} setUser={setUser} />
             </Modal>
           </Fragment>
         )}  

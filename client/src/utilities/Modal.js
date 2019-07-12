@@ -6,18 +6,18 @@ import Icon from './Icon';
 export default class Modal extends Component {
   render() {
     const { children, toggle, on } = this.props;
-    console.log("children: ", children)
+    console.log("Modal: children: ", children)
     return (
       <Portal>
         {on &&
           <ModalWrapper>
             <ModalCard>
             <div>
-              <h4>Login/Register functions not yet in operation</h4>
-              {/* <CloseButton onClick={toggle}>
+              {/* <h4>Login/Register functions not yet in operation</h4> */}
+              <CloseButton onClick={toggle}>
                 <Icon name="close" />
               </CloseButton>
-              <div>{children}</div> */}
+              <div>{children}</div>
             </div>
             </ModalCard>
             <Background onClick={toggle} />
