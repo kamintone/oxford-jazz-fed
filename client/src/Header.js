@@ -1,4 +1,4 @@
-import React, { Fragment, Component } from 'react';
+import React, { Fragment } from 'react';
 
 import Login from './Login';
 import Register from './Register';
@@ -7,46 +7,50 @@ import Modal from './utilities/Modal';
 
 import jazzfinder from './images/jazz-finder-faded.png';
 
-class Header extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isLoggedIn: false
-    };
-  }
-  
-  render() {
-    return (
-      <header className="App-header">
-        <h1 className="App-title">Oxfordshire Jazz Federation</h1>
-        <span className="App-subtitle">incorporating</span>
-        <img src={jazzfinder} className="App-img" alt="JazzFinder" title="JazzFinder" />
-        <br />
-        <br />
-  
-        <Toggle>
-          {({ on, toggle }) => (
-            <Fragment>
-              <button className="login-button" onClick={toggle}>Login</button>
-              <Modal on={on} toggle={toggle}>
-                <Login toggle={toggle} />
-              </Modal>
-            </Fragment>
-          )}  
-        </Toggle>
-        <Toggle>
-          {({ on, toggle }) => (
-            <Fragment>
-              <button className="register-button" onClick={toggle}>Register</button>
-              <Modal on={on} toggle={toggle}>
-                <Register />
-             </Modal>
-            </Fragment>
-          )}  
-        </Toggle>
-      </header>
-    )
-  }
+const Header = ({ user, isLoggedIn }) => {
+  // console.log("User ", user.firstName)
+  // console.log("is logged in: ", isLoggedIn)
+  let inOut = "Login"
+  isLoggedIn ? inOut = "Logout" : inOut = "Login"
+
+  return (
+    <header className="App-header">
+      <h1 className="App-title">Oxfordshire Jazz Federation</h1>
+      <span className="App-subtitle">incorporating</span>
+      <img src={jazzfinder} className="App-img" alt="JazzFinder" title="JazzFinder" />
+      <br />
+      <br />
+
+      <Toggle>
+        {({ on, toggle }) => (
+          <Fragment>
+            <button className="login-button" onClick={toggle}>{inOut}</button>
+            <Modal on={on} toggle={toggle}>
+              <Login toggle={toggle} />
+            </Modal>
+          </Fragment>
+        )}  
+      </Toggle>
+
+      {isLoggedIn === false && 
+      <Toggle>
+        {({ on, toggle }) => (
+          <Fragment>
+            <button className="register-button" onClick={toggle}>Register</button>
+            <Modal on={on} toggle={toggle}>
+              <Register />
+            </Modal>
+          </Fragment>
+        )}  
+      </Toggle>}
+
+      {isLoggedIn === true && 
+      <div id="logged-in-box" >
+        Logged in as {user.firstName} {user.lastName}
+      </div>}
+    </header>
+  )
 }
+
   
 export default Header;

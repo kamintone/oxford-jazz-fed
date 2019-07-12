@@ -347,6 +347,10 @@ hr {
   border-radius: 5px;
 }
 
+.register-button:hover {
+  cursor: pointer;
+}
+
 .login-button {
   float: left;
   font-size: 0.8em;
@@ -359,6 +363,10 @@ hr {
   border-radius: 5px;
 }
 
+.login-button:hover {
+  cursor: pointer;
+}
+
 #logged-in-box {
   float: right;
   font-size: 0.8em;
@@ -366,9 +374,9 @@ hr {
   background-color: #f3fa95;
   color: #253885;
   padding: 5px;
-  margin-top: -5px;
+  margin-top: -27px;
   border-radius: 5px;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
 }
 
 .memList {

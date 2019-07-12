@@ -7,7 +7,7 @@ import JazzFinder from './JazzFinder'
 import Contact from './Contact'
 import Admin from './Admin';
 
-function Main() {
+const Main = ({ vip}) => {
   console.log("Entered Main function")
   return (
     <div>
@@ -20,7 +20,7 @@ function Main() {
               <li><Link to="/links">Links</Link></li>
               <li><Link to="/jazzfinder">JazzFinder</Link></li>
               <li><Link to="/contact">Contact</Link></li>
-              {/* <li><Link style={{opacity: "0"}} to="/admin">Admin</Link></li> */}
+              {vip === true && <li><Link to="/admin">Admin</Link></li>}
             </ul>
           </div>
           <Route exact path="/" component={Home} />
@@ -28,7 +28,7 @@ function Main() {
           <Route path="/links" component={Links} />
           <Route path="/jazzfinder" component={JazzFinder} />
           <Route path="/contact" component={Contact} />
-          {/* <Route path="/admin" component={Admin} /> */}
+          {vip === true && <Route path="/admin" component={Admin} />}
         </div>
       </Router>
     </div>
