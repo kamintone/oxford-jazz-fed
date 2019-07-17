@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "c227f5484c6eb684db77",
-    "url": "/static/js/main.9e4d51c6.chunk.js"
+    "revision": "44a4096f11957949e919",
+    "url": "/static/js/main.2571f8c8.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "dea36b45ed5a57b2f047",
-    "url": "/static/css/2.37d96f7f.chunk.css"
+    "revision": "9b07257b2b835577a6ce",
+    "url": "/static/css/2.a64134ca.chunk.css"
   },
   {
-    "revision": "dea36b45ed5a57b2f047",
-    "url": "/static/js/2.9c9fa8ef.chunk.js"
+    "revision": "9b07257b2b835577a6ce",
+    "url": "/static/js/2.3208d87b.chunk.js"
   },
   {
     "revision": "d638f56a77526f6edb5195504ca34fc4",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/static/media/jf-page-4.f5fccbef.jpg"
   },
   {
-    "revision": "931308d0a24bb1b321672fd21b9ecce5",
+    "revision": "43b217f77f79ab658b42bbe68d1dc003",
     "url": "/index.html"
   }
 ];
