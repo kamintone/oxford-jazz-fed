@@ -7,9 +7,17 @@ class Admin extends Component {
       listMembers: '',
       totalItems: 0,
     }
+    this.clearList = this.clearList.bind(this)
   }
 
-  // returns a JSON object with a key of "members" and
+  clearList() {
+    this.setState({
+      listMembers: '',
+      totalItems: 0
+    })
+  }
+  
+    // returns a JSON object with a key of "members" and
   // value of an array of objects
   getMembers = () => {
     fetch("/api/memberList", {
@@ -32,12 +40,14 @@ class Admin extends Component {
 
   render() {
     let members = this.state.listMembers
-    if(this.state.listMembers){
+    if(this.state.listMembers) {
       return (
         <div>
-          <h1>OJF Members</h1>
-          <h5>{`Total membership: ${this.state.totalItems}`}</h5>
-          <h5 style={{fontWeight: "normal", color: "red"}}>*has admin privileges</h5>
+          <h1 style={{ textAlign: "center" }}>OJF Members</h1>
+          <h5 style={{ textAlign: "center" }}>{`Total membership: ${this.state.totalItems}`}</h5>
+          <h5 style={{ textAlign: "center", fontWeight: "normal", color: "red" }}>*has admin privileges</h5>
+          <button onClick={this.clearList}>Clear List</button>
+          <p>&nbsp;</p>
           <table className="memList">
             {
               members.map((member, index) =>
@@ -63,6 +73,7 @@ class Admin extends Component {
         </div>
       )
     }
+
     return (
       <div>
         <h1>OJF Members</h1>

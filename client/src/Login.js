@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const LogIn = ({ user, setUser }) => {
-  const handleCancel = () => {
-    return
-  }
+function LogIn ({ toggle, user, setUser, setLoggedIn }) {
+  console.log("Entered Login function")
+
+  const [errorMess, setError] = useState('')
+
+  // const handleCancel = () => {
+  //   console.log("Cancel clicked")
+  //   return
+  // }
+
   const myFunction = (event) => {
     event.preventDefault()
     let data = new FormData(event.target)
@@ -23,20 +29,18 @@ const LogIn = ({ user, setUser }) => {
       .then(res => res.json())
       .then( (json) => {
         if (json.status === 400 || json.status === 404) {
-          setUser(null)
+          console.log("Fetch failed")
+          setUser('')
+          setError('Email is not listed')
         } else {
-            setUser(json)  
+            console.log("Fetch succeeded")
+            setUser(json)
             // fetch was successful - setState causes re-render: 1 and 2
             var firstName, lastName;
             firstName = json.merge_fields.FNAME;
             lastName = json.merge_fields.LNAME;
-            console.log("Member accepted:", firstName + " " + lastName); //*************3 */
-            // this.setState ({
-            //   user: {
-            //     name: firstName + " " + lastName
-            //   }
-            // })
-            // setStatecauses re-render 4 and 5
+            console.log("Member accepted:", firstName + " " + lastName);
+            setLoggedIn(true)
           }
         })
       .catch((err) => {
@@ -44,19 +48,15 @@ const LogIn = ({ user, setUser }) => {
       })
     }
   }
-  
-
+  // comes here when Login/Logout clicked
   console.log("member: ", user); //*************1/4 */
-  let errorMess = ''  
   if (user) {
-    let firstName = user.merge_fields.FNAME;
-    let lastName = user.merge_fields.LNAME;
-    console.log("from user: ", firstName + " " + lastName) //*************2/5 */
-    return null;
-  } else if (errorMess !== '') {
+    toggle()
+    return null
+} else if (errorMess !== '') {
       return (
-        <div className="alert alert-warning text-left">
-          <strong>Error: {errorMess}</strong>
+        <div className="alert alert-warning text-center" style={{ backgroundColor: "#eceeb4", marginTop: "20px"}}>
+          <strong>{errorMess}</strong>
         </div>
       )
     } else {
@@ -68,7 +68,7 @@ const LogIn = ({ user, setUser }) => {
             <legend className="f4 fw6 ph0 mh0">Log In</legend>
             <div className="mt3">
               <input className="pa1 input-reset ba b--black bg-light hover-black w-100"
-                placeholder="Email address"
+                placeholder="Email address (required)"
                 type="email"
                 name="email"
                 id="email"
@@ -87,10 +87,10 @@ const LogIn = ({ user, setUser }) => {
             <button
                   className="btn b ph3 pv2 mh2 fl input-reset ba b--black btn-primary text-white pointer f6 dib"
                   type="submit">Submit
-                </button>
-                <button
+            </button>
+                {/* <button
                   className="btn b ph3 pv2 mh2 fr input-reset ba b--black btn-secondary text-white pointer f6 dib" type="button" onClick={handleCancel}>Cancel
-                </button> 
+                </button>  */}
                 <br />
                 <br />
             </div>

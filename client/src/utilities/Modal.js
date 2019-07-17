@@ -13,7 +13,6 @@ export default class Modal extends Component {
           <ModalWrapper>
             <ModalCard>
             <div>
-              {/* <h4>Login/Register functions not yet in operation</h4> */}
               <CloseButton onClick={toggle}>
                 <Icon name="close" />
               </CloseButton>

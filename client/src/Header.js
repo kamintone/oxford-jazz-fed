@@ -1,18 +1,21 @@
 import React, { Fragment } from 'react';
 
 import Login from './Login';
+import Logout from './Logout';
 import Register from './Register';
 import Toggle from './utilities/Toggle';
 import Modal from './utilities/Modal';
 
 import jazzfinder from './images/jazz-finder-faded.png';
 
-const Header = ({ user, setUser, isLoggedIn }) => {
-  // console.log("User ", user.firstName)
-  // console.log("is logged in: ", isLoggedIn)
-  let inOut = "Login"
-  isLoggedIn ? inOut = "Logout" : inOut = "Login"
-
+function Header ({ user, setUser, isLoggedIn, setLoggedIn }) {
+  console.log("Entered Header function")
+  console.log("User ", user)
+  console.log("is logged in: ", isLoggedIn)
+  // user ? setLoggedIn(true) : setLoggedIn(false)
+  // let inOut = "Login"
+  // isLoggedIn ? inOut = "Logout" : inOut = "Login"
+  
   return (
     <header className="App-header">
       <h1 className="App-title">Oxfordshire Jazz Federation</h1>
@@ -21,18 +24,33 @@ const Header = ({ user, setUser, isLoggedIn }) => {
       <br />
       <br />
 
+      { isLoggedIn === false && 
       <Toggle>
         {({ on, toggle }) => (
           <Fragment>
-            <button className="login-button" onClick={toggle}>{inOut}</button>
+            <button className="login-button" onClick={toggle}>Login</button>
             <Modal on={on} toggle={toggle}>
-              <Login toggle={toggle} user={user} setUser={setUser} />
+              <Login toggle={toggle} user={user} setUser={setUser} isLoggedIn={isLoggedIn} setLoggedIn={setLoggedIn} />
             </Modal>
           </Fragment>
         )}  
       </Toggle>
+      }
 
-      {isLoggedIn === false && 
+      { isLoggedIn === true &&
+      <Toggle>
+      {({ on, toggle }) => (
+        <Fragment>
+          <button className="login-button" onClick={toggle}>Logout</button>
+          <Modal on={on} toggle={toggle}>
+            <Logout setUser={setUser} setLoggedIn={setLoggedIn} />
+          </Modal>
+        </Fragment>
+      )}  
+    </Toggle>
+    }
+
+      { isLoggedIn === false && 
       <Toggle>
         {({ on, toggle }) => (
           <Fragment>
@@ -46,10 +64,18 @@ const Header = ({ user, setUser, isLoggedIn }) => {
 
       {isLoggedIn === true && 
       <div id="logged-in-box" >
-        Logged in as {user.firstName} {user.lastName}
+        Logged in as {user.merge_fields.FNAME} {user.merge_fields.LNAME}
       </div>}
     </header>
   )
+  function handleLogout() {
+    console.log("About to call Logout")
+    return (
+      <div>
+        <Logout setUser={setUser} setLoggedin={setLoggedIn} />
+      </div>
+    )
+  }
 }
 
   

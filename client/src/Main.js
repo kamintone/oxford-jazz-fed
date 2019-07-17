@@ -7,7 +7,7 @@ import JazzFinder from './JazzFinder'
 import Contact from './Contact'
 import Admin from './Admin';
 
-const Main = ({ vip}) => {
+const Main = ({ vip }) => {
   console.log("Entered Main function")
   return (
     <div>

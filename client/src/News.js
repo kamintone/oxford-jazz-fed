@@ -1,8 +1,7 @@
 import React from 'react';
-import bigband from './images/big-band.jpg';
-import alan from './images/alan.jpg';
 
 function News() {
+  console.log("Entered News function")
   return (
     <div id="App-content">
       <div className="App-section">
