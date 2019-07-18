@@ -20,6 +20,7 @@ function Header ({ user, setUser, isLoggedIn, setLoggedIn }) {
     <header className="App-header">
       <h1 className="App-title">Oxfordshire Jazz Federation</h1>
       <span className="App-subtitle">incorporating</span>
+      <br />
       <img src={jazzfinder} className="App-img" alt="JazzFinder" title="JazzFinder" />
       <br />
       <br />
@@ -64,18 +65,10 @@ function Header ({ user, setUser, isLoggedIn, setLoggedIn }) {
 
       {isLoggedIn === true && 
       <div id="logged-in-box" >
-        Logged in as {user.merge_fields.FNAME} {user.merge_fields.LNAME}
+        Logged in as <span style={{color: "red"}}>{user.merge_fields.FNAME} {user.merge_fields.LNAME}</span>
       </div>}
     </header>
   )
-  function handleLogout() {
-    console.log("About to call Logout")
-    return (
-      <div>
-        <Logout setUser={setUser} setLoggedin={setLoggedIn} />
-      </div>
-    )
-  }
 }
 
   

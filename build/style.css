@@ -46,7 +46,7 @@
 
 .App-subtitle {
   text-align: center;
-  font-size: 1em;
+  font-size: 0.8em;
   padding-right: 20px;
   padding-left: 20px;
   margin-top: -10px;
@@ -336,14 +336,14 @@ hr {
 
 .register-button {
   float: left;
-  font-size: 0.8em;
+  font-size: 1.0em;
   font-weight: bold;
   background-color: #f3fa95;
   color: #253885;
-  padding: 5px;
+  padding: 3px 5px;
   margin-left: 10px;
   margin-top: -25px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   border-radius: 5px;
 }
 
@@ -353,13 +353,13 @@ hr {
 
 .login-button {
   float: left;
-  font-size: 0.8em;
+  font-size: 1.0em;
   font-weight: bold;
   background-color:#f3fa95;
   color: #253885;
-  padding: 5px;
+  padding: 3px 5px;
   margin-top: -25px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   border-radius: 5px;
 }
 
@@ -369,14 +369,14 @@ hr {
 
 #logged-in-box {
   float: right;
-  font-size: 0.8em;
+  font-size: 1.0em;
   font-weight: bold;
   background-color: #f3fa95;
   color: #253885;
-  padding: 5px;
+  padding: 3px 5px;
   margin-top: -27px;
   border-radius: 5px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .memList {
