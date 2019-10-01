@@ -13,39 +13,13 @@ function News() {
       <div className="App-section">
         <br />
         <h5 style={{textAlign: "center"}}>
-        <a href="http://www.woodstockjazz.co.uk" target="_blank" rel="noopener noreferrer">Woodstock Jazz</a>:
-          St Hugh’s Centre, Hensington Road, Woodstock OX20 1JL
-        </h5>
-        <p style={{fontSize: "1.2rem", textAlign: "center"}}>
-          Tickets £15.00 (£12.00 if ordered ahead).
-        </p>
-        <p style={{fontSize: "1.2rem", textAlign: "center"}}>
-          Doors open at 19.15, show starts at 20.00.
-        </p>
-        <p style={{fontSize: "1.2rem", textAlign: "center"}}>
-          Enquiries: Paul Jefferies, 07710 545555.
-        </p>
-        <hr />
+          Cuddesdon Live Jazz evening in Cuddesden Village Hall        </h5>
+        {/* <hr /> */}
         <h5 style={{textAlign: "center"}}>
-          Friday 26th July, 20.00&ndash;22.00
-        </h5>
+          7.30 for 8.00 pm, 21st November 2019        </h5>
         <p style={{fontSize: "1.2rem", textAlign: "justify"}}>
-          Julian Marc Stringle (clarinet) with Tom Berge (piano), Paul Jefferies (bass) & Jon Clark (drums).
-        </p>
-        <hr />
-        <h5 style={{textAlign: "center"}}>
-          Thursday August 22nd, 20.00&ndash;22.00
-        </h5>
-        <p style={{fontSize: "1.2rem", textAlign: "justify"}}>
-          Denny Ilett Trio Plus Special Guest - Denny Ilett (Gtr/vcls), Tom Kincaid (piano), Paul Jefferies (bass), plus guest TBA.
-        </p>
-        <hr />
-        <h5 style={{textAlign: "center"}}>
-          Friday September 20th
-        </h5>
-        <p style={{fontSize: "1.2rem", textAlign: "justify"}}>
-          Rob Terry Trio - the trio present their ‘Greatness of Gershwin’ show.
-        </p>
+          Following the success of the Live Jazz in May and by popular request, Alyn Shipton, our patron, of Radio 3 fame, and his band The Cat Among The Pigeons are returning on 21st November 2019, 7.30pm for 8pm. Cash bar, tickets £10, available in advance from Susan Palmer (email susanjoypalmer [at] gmail.com to reserve).        </p>
+        {/* <hr /> */}
         <p>&nbsp;</p>
       </div>
       <div className="App-section">
