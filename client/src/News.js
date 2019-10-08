@@ -13,38 +13,31 @@ function News() {
       <div className="App-section">
         <br />
         <h5 style={{textAlign: "center"}}>
-        <a href="http://www.woodstockjazz.co.uk" target="_blank" rel="noopener noreferrer">Woodstock Jazz</a>:
-          St Hugh’s Centre, Hensington Road, Woodstock OX20 1JL
+          The Red Lion, Brightwell cum Sotwell OX10 0RT
+        <br />
+          Live jazz gigs every second Sunday 5 to 7pm
+        </h5>
+        <h5 style={{textAlign: "center"}}>
+          Sunday 13th October
         </h5>
         <p style={{fontSize: "1.2rem", textAlign: "center"}}>
-          Tickets £15.00 (£12.00 if ordered ahead).
+          Gli Avanzi - modern jazz inspired by the jazz masters
         </p>
         <p style={{fontSize: "1.2rem", textAlign: "center"}}>
-          Doors open at 19.15, show starts at 20.00.
-        </p>
-        <p style={{fontSize: "1.2rem", textAlign: "center"}}>
-          Enquiries: Paul Jefferies, 07710 545555.
+          No charge - donations welcome!
         </p>
         <hr />
         <h5 style={{textAlign: "center"}}>
-          Friday 26th July, 20.00&ndash;22.00
+          Cuddesdon Village Hall OX44 9HJ
         </h5>
-        <p style={{fontSize: "1.2rem", textAlign: "justify"}}>
-          Julian Marc Stringle (clarinet) with Tom Berge (piano), Paul Jefferies (bass) & Jon Clark (drums).
-        </p>
-        <hr />
         <h5 style={{textAlign: "center"}}>
-          Thursday August 22nd, 20.00&ndash;22.00
+          Thursday 21st November, 7.30pm for 8pm 
         </h5>
-        <p style={{fontSize: "1.2rem", textAlign: "justify"}}>
-          Denny Ilett Trio Plus Special Guest - Denny Ilett (Gtr/vcls), Tom Kincaid (piano), Paul Jefferies (bass), plus guest TBA.
+        <p style={{fontSize: "1.2rem", textAlign: "center"}}>
+        Alyn Shipton and his band The Cat Among The Pigeons return to Cuddesdon by popular request 
         </p>
-        <hr />
-        <h5 style={{textAlign: "center"}}>
-          Friday September 20th
-        </h5>
-        <p style={{fontSize: "1.2rem", textAlign: "justify"}}>
-          Rob Terry Trio - the trio present their ‘Greatness of Gershwin’ show.
+        <p style={{fontSize: "1.2rem", textAlign: "center"}}>
+          Cash bar, tickets £10, available in advance from Susan Palmer (email susanjoypalmer [at] gmail.com to reserve)
         </p>
         <p>&nbsp;</p>
       </div>
