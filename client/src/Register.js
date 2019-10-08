@@ -99,8 +99,8 @@ class Register extends Component {
     return (
         <div id="App-content">
           <div className="App-form">
-            <h4>Register function not yet in operation</h4>
-            {/* <main className="pa3 blue-80">
+            {/* <h4>Register function not yet in operation</h4> */}
+            <main className="pa3 blue-80">
               <div className="measure">
                 <form onSubmit={this.onSubmit} id="sign_up" className="ba b--transparent ph0 mh0">
                   <legend className="f4 fw6 ph0 mh0">Register</legend>
@@ -144,7 +144,7 @@ class Register extends Component {
                   </div>
                 </form>
               </div>
-            </main> */}
+            </main>
           </div>
         </div>
       )

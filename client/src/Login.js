@@ -23,7 +23,8 @@ function LogIn ({ toggle, user, setUser, setLoggedIn }) {
         method: 'PATCH',
         body: stringifyFormData(data),
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
+          'Host': "https//us17.api.mailchimp.com/3.0"
         }
       })
       .then(res => res.json())

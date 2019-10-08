@@ -121,7 +121,7 @@
 }
 
 #navbar ul a {
-	color: beige;
+	color: #f3fa95;
   /* background-color: #253885; */
   background-color: rgb(37, 56, 133);
 	background-repeat: no-repeat;
@@ -432,9 +432,9 @@ hr {
   background-color: #253885;
   color: #f3fa95;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-right: 20px;
-  margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 .internal-link:hover {
@@ -445,4 +445,6 @@ hr {
 .jfpage {
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
