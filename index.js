@@ -30,14 +30,14 @@ app.get('/api/memberList', (_req, res) => {
   })
 })
 
-app.post('/api/addMember', (req, res) => {
-  var email=req.body.email
+app.post('/api/addMember', (_req, res) => {
+  var email=_req.body.email
   mailchimp.post(`/lists/${list_id}/members`, {
-    email_address: req.body.email,
+    email_address: _req.body.email,
     status: 'pending', // should be 'pending'
     merge_fields: {
-      FNAME: req.body.firstName,
-      LNAME: req.body.lastName
+      FNAME: _req.body.firstName,
+      LNAME: _req.body.lastName
     },
   })
   .then(function(results){
@@ -48,8 +48,8 @@ app.post('/api/addMember', (req, res) => {
   })
 })
 
-app.patch('/api/getMember', (req, res) => {
-  var memhash=md5(req.body.email)
+app.patch('/api/getMember', (_req, res) => {
+  var memhash=md5(_req.body.email)
   mailchimp.patch(`/lists/${list_id}/members/${memhash}`)
   .then(function(results){
     res.send(results)
