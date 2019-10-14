@@ -19,7 +19,7 @@ function LogIn ({ toggle, user, setUser, setLoggedIn }) {
       return
     } else {
       console.log("Fetching member")
-      fetch('api/getMember', {
+      fetch('/api/getMember', {
         method: 'PATCH',
         body: stringifyFormData(data),
         headers: {
