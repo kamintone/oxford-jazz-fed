@@ -31,7 +31,7 @@ app.get('/api/memberList', (_req, res) => {
 })
 
 app.post('/api/addMember', (_req, res) => {
-  var email=_req.body.email
+  // var email=_req.body.email
   mailchimp.post(`/lists/${list_id}/members`, {
     email_address: _req.body.email,
     status: 'pending', // should be 'pending'
@@ -50,6 +50,11 @@ app.post('/api/addMember', (_req, res) => {
 
 app.patch('/api/getMember', (_req, res) => {
   var memhash=md5(_req.body.email)
+  console.log("url: ", url)
+  // console.log("api-key: ", mc_api_key)
+  console.log("list id: ", list_id)
+  console.log("mailchimp", mailchimp)
+  console.log("memhash", memhash)
   mailchimp.patch(`/lists/${list_id}/members/${memhash}`)
   .then(function(results){
     res.send(results)
