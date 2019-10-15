@@ -39,6 +39,18 @@ function News() {
         <p style={{fontSize: "1.2rem", textAlign: "center"}}>
           Cash bar, tickets £10, available in advance from Susan Palmer (email susanjoypalmer [at] gmail.com to reserve)
         </p>
+        <hr />
+        <h5 style={{textAlign: "center"}}>
+          The Swan Inn, 21 Acre End Street, Eynsham OX29 4PE
+        <br />
+          Lunchtime Jazz
+        </h5>
+        <h5 style={{textAlign: "center"}}>
+          Friday 8th November, 12.30
+        </h5>
+        <p style={{fontSize: "1.2rem", textAlign: "center"}}>
+          Building on the success of <strong>Alvin Roy's</strong> evening sessions on the first Monday of the month, landlord Gordon Richardson is keen to extend the Swan's support of live jazz. A "pilot" lunchtime session is scheduled for Friday 8th November, featuring singer Judy Eames with Tony Davis, trumpet, Terry Hutchins, guitar and Della Thompson, bass. The S1 bus stops right outside!
+        </p>
         <p>&nbsp;</p>
       </div>
       <div className="App-section">
