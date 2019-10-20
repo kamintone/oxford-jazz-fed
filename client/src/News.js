@@ -17,12 +17,6 @@ function News() {
         <br />
           Live jazz gigs every second Sunday 5 to 7pm
         </h5>
-        <h5 style={{textAlign: "center"}}>
-          Sunday 13th October
-        </h5>
-        <p style={{fontSize: "1.2rem", textAlign: "center"}}>
-          Gli Avanzi - modern jazz inspired by the jazz masters
-        </p>
         <p style={{fontSize: "1.2rem", textAlign: "center"}}>
           No charge - donations welcome!
         </p>
@@ -49,7 +43,7 @@ function News() {
           Friday 8th November, 12.30
         </h5>
         <p style={{fontSize: "1.2rem", textAlign: "center"}}>
-          Building on the success of <strong>Alvin Roy's</strong> evening sessions on the first Monday of the month, landlord Gordon Richardson is keen to extend the Swan's support of live jazz. A "pilot" lunchtime session is scheduled for Friday 8th November, featuring singer Judy Eames with Tony Davis, trumpet, Terry Hutchins, guitar and Della Thompson, bass. The S1 bus stops right outside!
+          Building on the success of <strong>Alvin Roy's</strong> evening sessions on the first Monday of the month, landlord Gordon Richardson is keen to extend the Swan's support of live jazz. A "pilot" <strong>lunchtime</strong> session is scheduled for Friday 8th November, featuring singer Judy Eames with Tony Davis, trumpet, Terry Hutchins, guitar and Della Thompson, bass. The S1 bus stops right outside! Free entry.
         </p>
         <p>&nbsp;</p>
       </div>
