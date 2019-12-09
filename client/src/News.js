@@ -17,21 +17,14 @@ function News() {
         <br />
           Live jazz gigs every second Sunday 5 to 7pm
         </h5>
+        <h5 style={{textAlign: "center"}}>
+          Sunday 8th December, 6pm to 8pm 
+        </h5>
+        <p style={{fontSize: "1.2rem", textAlign: "center"}}>
+          Jazz quintet Gli Avanzi &ndash; note slightly later time of 6-8pm.
+        </p>
         <p style={{fontSize: "1.2rem", textAlign: "center"}}>
           No charge - donations welcome!
-        </p>
-        <hr />
-        <h5 style={{textAlign: "center"}}>
-          Cuddesdon Village Hall OX44 9HJ
-        </h5>
-        <h5 style={{textAlign: "center"}}>
-          Thursday 21st November, 7.30pm for 8pm 
-        </h5>
-        <p style={{fontSize: "1.2rem", textAlign: "center"}}>
-        Alyn Shipton and his band The Cat Among The Pigeons return to Cuddesdon by popular request 
-        </p>
-        <p style={{fontSize: "1.2rem", textAlign: "center"}}>
-          Cash bar, tickets £10, available in advance from Susan Palmer (email susanjoypalmer [at] gmail.com to reserve)
         </p>
         <hr />
         <h5 style={{textAlign: "center"}}>
@@ -40,10 +33,10 @@ function News() {
           Lunchtime Jazz
         </h5>
         <h5 style={{textAlign: "center"}}>
-          Friday 8th November, 12.30
+          Friday 13th December, 12.30
         </h5>
         <p style={{fontSize: "1.2rem", textAlign: "center"}}>
-          Building on the success of <strong>Alvin Roy's</strong> evening sessions on the first Monday of the month, landlord Gordon Richardson is keen to extend the Swan's support of live jazz. A "pilot" <strong>lunchtime</strong> session is scheduled for Friday 8th November, featuring singer Judy Eames with Tony Davis, trumpet, Terry Hutchins, guitar and Della Thompson, bass. The S1 bus stops right outside! Free entry.
+          Building on the success of <strong>Alvin Roy's</strong> evening sessions on the first Monday of the month, landlord Gordon Richardson is extending the Swan's support of live jazz. The next lunchtime session is scheduled for Friday 13th December, featuring singer Judy Eames with Tony Davis, trumpet, Terry Hutchins, guitar and special guest <strong>Clive Morton</strong>, bass. The S1 bus stops right outside! Free entry.
         </p>
         <p>&nbsp;</p>
       </div>
