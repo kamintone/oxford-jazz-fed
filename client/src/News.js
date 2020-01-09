@@ -30,7 +30,7 @@ function News() {
           Friday 10th January, 12.30
         </h5>
         <p style={{fontSize: "1.2rem", textAlign: "left"}}>
-          Building on the success of <strong>Alvin Roy's</strong> evening sessions on the first Monday of the month, landlord Gordon Richardson is extending the Swan's support of live jazz. The next lunchtime session is scheduled for Friday 10th January, featuring singer Judy Eames with Tony Davis, trumpet, Terry Hutchins, guitar and Della Thompson, bass. The S1 bus stops right outside! Free entry.
+          Building on the success of <strong>Alvin Roy's</strong> evening sessions on the first Monday of the month, landlord Gordon Richardson is extending the Swan's support of live jazz. The next lunchtime session is scheduled for Friday 10th January, featuring singer Judy Eames with guest <strong>Mike Wills</strong>, clarinet and sax, Terry Hutchins, guitar and Della Thompson, bass. The S1 bus stops right outside! Free entry.
         </p>
         <p>&nbsp;</p>
       </div>
