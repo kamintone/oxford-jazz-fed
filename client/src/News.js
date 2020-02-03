@@ -27,10 +27,20 @@ function News() {
           Lunchtime Jazz
         </h5>
         <h5 style={{textAlign: "center"}}>
-          Friday 10th January, 12.30
+          Friday 14th February, 12.30
         </h5>
         <p style={{fontSize: "1.2rem", textAlign: "left"}}>
-          Building on the success of <strong>Alvin Roy's</strong> evening sessions on the first Monday of the month, landlord Gordon Richardson is extending the Swan's support of live jazz. The next lunchtime session is scheduled for Friday 10th January, featuring singer Judy Eames with guest <strong>Mike Wills</strong>, clarinet and sax, Terry Hutchins, guitar and Della Thompson, bass. The S1 bus stops right outside! Free entry.
+          Building on the success of <strong>Alvin Roy's</strong> evening sessions on the first Monday of the month, landlord Gordon Richardson is extending the Swan's support of live jazz. The next lunchtime session is scheduled for Friday 14th February, featuring singer Judy Eames with guest <strong>Mike Wills</strong>, clarinet and sax, Tony Davis, trumpet, Terry Hutchins, guitar and Della Thompson, bass. The S1 bus stops right outside! Free entry.
+        </p>
+        <hr />
+        <h5 style={{textAlign: "center"}}>
+          Amendments to JazzFinder:
+        </h5>
+        <p style={{fontSize: "1.2rem", textAlign: "left"}}>
+          The Nag’s Head, Abingdon – live music suspended until March.
+        </p>
+        <p style={{fontSize: "1.2rem", textAlign: "left"}}>
+          Crazy Bear, Stadhampton – is now the second Sunday, not the last.
         </p>
         <p>&nbsp;</p>
       </div>

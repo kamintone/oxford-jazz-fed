@@ -11,7 +11,7 @@ function Home() {
         </p>
         <p>Created for jazz musicians, supporters and venue providers,  the Oxfordshire Jazz Federation is now over 30 years old. We aim to act as a forum for the many styles of jazz; publicising events, encouraging new ventures and inviting ideas from members and supporters.</p>
         <p>Membership of Oxfordshire Jazz Federation costs only £5 a year, renewable on April 1st.  Musicians and supporters are invited to join us to get advance notice of gigs and to help spread the word about Jazz in Oxfordshire and neighbouring counties.</p>
-        <p style={{color: "red", fontWeight: "bold"}}>Payment can now be made by online bank transfer to:<br /><span style={{color: "black", fontSize: "1.2em"}}>Sort Code: 20-98-48<br />Account No: 70680486 (Oxfordshire Jazz Federation)</span><br /> with your name or initials as reference. If you do this, please also <a href="mailto:dorothy.giacomin@gmail.com">email Dorothy</a> confirming that you have paid, and include your address so that she can send your membership card.
+        <p style={{color: "red", fontWeight: "bold"}}>Payment can now be made by online bank transfer - use 'Payment' button for details.
         {/* If you're already a member, use the "Login" button above, otherwise use the "Register" button and supply your name and email address to be added to the list. */}
         </p>
         <p>&nbsp;</p>

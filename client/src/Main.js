@@ -5,6 +5,7 @@ import News from './News'
 import Links from './Links'
 import JazzFinder from './JazzFinder'
 import Contact from './Contact'
+import Payment from './Payment'
 import Admin from './Admin';
 
 const Main = ({ vip }) => {
@@ -20,6 +21,7 @@ const Main = ({ vip }) => {
               <li><Link to="/links">Links</Link></li>
               <li><Link to="/jazzfinder">JazzFinder</Link></li>
               <li><Link to="/contact">Contact</Link></li>
+              <li><Link to="/payment">Payment</Link></li>
               {vip === true && <li><Link to="/admin">Admin</Link></li>}
             </ul>
           </div>
@@ -28,6 +30,7 @@ const Main = ({ vip }) => {
           <Route path="/links" component={Links} />
           <Route path="/jazzfinder" component={JazzFinder} />
           <Route path="/contact" component={Contact} />
+          <Route path="/payment" component={Payment} />
           {vip === true && <Route path="/admin" component={Admin} />}
         </div>
       </Router>
