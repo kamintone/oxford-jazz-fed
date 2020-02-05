@@ -33,6 +33,16 @@ function News() {
           Building on the success of <strong>Alvin Roy's</strong> evening sessions on the first Monday of the month, landlord Gordon Richardson is extending the Swan's support of live jazz. The next lunchtime session is scheduled for Friday 14th February, featuring singer Judy Eames with guest <strong>Mike Wills</strong>, clarinet and sax, Tony Davis, trumpet, Terry Hutchins, guitar and Della Thompson, bass. The S1 bus stops right outside! Free entry.
         </p>
         <hr />
+        <h5 style={{textAlign: "center", color: "red"}}>
+          New! Swan Jam Session
+        </h5>
+        <h5 style={{textAlign: "center"}}>
+          Monday 17th February, 8pm to 10pm
+        </h5>
+        <p style={{fontSize: "1.2rem", textAlign: "left"}}>
+          Also at the Swan, on the <strong>third</strong> Monday of the month, a jam session for jazz musicians, organised by bass player Milo Thurston.
+        </p>
+       <hr />
         <h5 style={{textAlign: "center"}}>
           Amendments to JazzFinder:
         </h5>
