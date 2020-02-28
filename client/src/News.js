@@ -27,20 +27,17 @@ function News() {
           Lunchtime Jazz
         </h5>
         <h5 style={{textAlign: "center"}}>
-          Friday 14th February, 12.30
+          Friday 13th March, 12.30
         </h5>
         <p style={{fontSize: "1.2rem", textAlign: "left"}}>
-          Building on the success of <strong>Alvin Roy's</strong> evening sessions on the first Monday of the month, landlord Gordon Richardson is extending the Swan's support of live jazz. The next lunchtime session is scheduled for Friday 14th February, featuring singer Judy Eames with guest <strong>Mike Wills</strong>, clarinet and sax, Tony Davis, trumpet, Terry Hutchins, guitar and Della Thompson, bass. The S1 bus stops right outside! Free entry.
+          Building on the success of <strong>Alvin Roy's</strong> evening sessions on the first Monday of the month, landlord Gordon Richardson is extending the Swan's support of live jazz. The next lunchtime session is scheduled for Friday 13th March, featuring singer Judy Eames with guest <strong>Mike Wills</strong>, clarinet and sax, Tony Davis, trumpet, Terry Hutchins, guitar and Della Thompson, bass. The S1 bus stops right outside! Free entry.
         </p>
         <hr />
         <h5 style={{textAlign: "center", color: "red"}}>
           New! Swan Jam Session
         </h5>
-        <h5 style={{textAlign: "center"}}>
-          Monday 17th February, 8pm to 10pm
-        </h5>
         <p style={{fontSize: "1.2rem", textAlign: "left"}}>
-          Also at the Swan, on the <strong>third</strong> Monday of the month, a jam session for jazz musicians, organised by bass player Milo Thurston.
+          Also at the Swan, on the <strong>third</strong> Monday of the month, a jam session for jazz musicians, organised by bass player Milo Thurston. next session <strong>Monday 16th March 8pm to 10pm</strong>
         </p>
        <hr />
         <h5 style={{textAlign: "center"}}>
