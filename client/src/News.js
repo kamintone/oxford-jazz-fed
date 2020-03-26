@@ -6,48 +6,40 @@ function News() {
     <div id="App-content">
       <div className="App-section">
       <h4>STOP PRESS</h4>
-        {/* <a className="internal-link" href="#ronnie">Ronnie Scott's Big Band</a><br />
-        <a className="internal-link" href="#woodstock">Woodstock Jazz</a><br />
-        <a className="internal-link" href="#galvin">Elliot Galvin/Stakla Quartet</a><br /> */}
       </div>
       <div className="App-section">
         <br />
-        <h5 style={{textAlign: "center"}}>
-          The Red Lion, Brightwell cum Sotwell OX10 0RT
-        <br />
-          Live jazz gigs every second Sunday 5 to 7pm
-        </h5>
-        <p style={{fontSize: "1.2rem", textAlign: "center"}}>
-          No charge - donations welcome!
-        </p>
-        <hr />
-        <h5 style={{textAlign: "center"}}>
-          The Swan Inn, 21 Acre End Street, Eynsham OX29 4PE
-        <br />
-          Lunchtime Jazz
-        </h5>
-        <h5 style={{textAlign: "center"}}>
-          Friday 13th March, 12.30
-        </h5>
-        <p style={{fontSize: "1.2rem", textAlign: "left"}}>
-          Building on the success of <strong>Alvin Roy's</strong> evening sessions on the first Monday of the month, landlord Gordon Richardson is extending the Swan's support of live jazz. The next lunchtime session is scheduled for Friday 13th March, featuring singer Judy Eames with guest <strong>Mike Wills</strong>, clarinet and sax, Tony Davis, trumpet, Terry Hutchins, guitar and Della Thompson, bass. The S1 bus stops right outside! Free entry.
-        </p>
-        <hr />
         <h5 style={{textAlign: "center", color: "red"}}>
-          New! Swan Jam Session
+          Cancellations and Rescheduled Events
         </h5>
-        <p style={{fontSize: "1.2rem", textAlign: "left"}}>
-          Also at the Swan, on the <strong>third</strong> Monday of the month, a jam session for jazz musicians, organised by bass player Milo Thurston. next session <strong>Monday 16th March 8pm to 10pm</strong>
+        <hr />
+        <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "bold"}}>
+          With the imposition of total lockdown, all events listed in JazzFinder are cancelled.  It's impossible to say at this stage when those gigs which normally take place on a regular basis will resume - the most optimistic estimate seems to be the end of May - but some events have been rescheduled, as shown below. 
         </p>
-       <hr />
-        <h5 style={{textAlign: "center"}}>
-          Amendments to JazzFinder:
-        </h5>
-        <p style={{fontSize: "1.2rem", textAlign: "left"}}>
-          The Nag’s Head, Abingdon – live music suspended until March.
-        </p>
-        <p style={{fontSize: "1.2rem", textAlign: "left"}}>
-          Crazy Bear, Stadhampton – is now the second Sunday, not the last.
+        <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "bold"}}>
+          <ul>
+            <li>Swindon Jazz & Soul Festival postponed from 4 April to 18 July</li>
+            <li>Woodstock Jazz:
+              <ul type="square">
+                <li>Rob Terry Trio (was March 20th) - New Date is August 21st 2020</li>
+                <li>Damon Brown (was April 17th) - New Date is October 30th 2020</li>
+              </ul>
+            </li>
+            <li>Jazz Cave/Cirencester:
+              <ul type="square">
+                <li>Alex Hutton (was March 18th) - New Date is August 26th 2020</li>
+                <li>
+                  Kevin Fitzsimmons (was April 22nd) - New Date December 16th 2020
+                  Now featuring TINA MAY’S CHRISTMAS SPECIAL (Kevin will come back to perform in 2021)
+                </li>
+              </ul>
+            </li>
+            <li>Burford Jazz:
+              <ul type="square">
+                <li>Simon Spillett (was April 11th) - New Date is November 13th 2020</li>
+              </ul>
+            </li>
+          </ul>
         </p>
         <p>&nbsp;</p>
       </div>
