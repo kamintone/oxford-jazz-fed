@@ -6,7 +6,7 @@ function Payment() {
       <div className="App-section">
         <p style={{color: "red", fontWeight: "bold"}}>Payment can now be made by online bank transfer to:<br /><span style={{color: "black", fontSize: "1.2em"}}>Sort Code: 20-98-48<br />Account No: 70680486 (Oxfordshire Jazz Federation)</span><br /> with your name or initials as reference, or by PayPal, using the <em>Pay Now</em> button below.
         </p>
-        <div style={{backgroundColor: "blue", textAlign: "left", width: "158px", marginTop: "6px", marginLeft: "15px", paddingLeft: "8px", paddingTop: "8px", borderRadius: "5px"}}>
+        <div style={{backgroundColor: "#253885", textAlign: "left", width: "158px", marginTop: "6px", marginLeft: "15px", paddingLeft: "8px", paddingTop: "8px", borderRadius: "5px"}}>
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick" />
             {/* <input type="hidden" name="hosted_button_id" value="F6P83BV84CQ52" /> */}
