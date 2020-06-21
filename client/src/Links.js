@@ -5,6 +5,7 @@ import brass from './images/brass-link.png';
 import dave from './images/dave-link.png';
 import george from './images/george-link.png';
 import jude from './images/jude-link.png';
+import llmc from './images/llmc-link.png';
 import nick from './images/nick-gill-link.png';
 import whitley from './images/whitley-bay-link.png';
 import ojnetwork from './images/ojnetwork-link.png';
@@ -52,6 +53,10 @@ function Links() {
         <a href="http://www.judyeames.co.uk/"
         target="_blank" rel="noopener noreferrer" alt="Judy Eames" title="Judy Eames">
         Judy Eames  <img src={jude} alt="" /></a></div>
+        <div className="weblink">
+        <a href="http://www.thelittlelivemusiccompany.co.uk/"
+        target="_blank" rel="noopener noreferrer" alt="The Little Live Music Company" title="The Little Live Music Company">
+        The Little Live Music Company  <img src={llmc} alt="" /></a></div>
         <div className="weblink">
         <a href="https://whitleybayjazzfest.com/"
         target="_blank" rel="noopener noreferrer" alt="Mike Durham's Classic Jazz Party" title="Mike Durham's Classic Jazz Party">
