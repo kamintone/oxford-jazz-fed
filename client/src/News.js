@@ -14,9 +14,10 @@ function News() {
         </h5>
         <hr />
         <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "bold"}}>
-          With the imposition of total lockdown, all events listed in JazzFinder are cancelled.  It's impossible to say at this stage when those gigs which normally take place on a regular basis will resume - the most optimistic estimate seems to be the end of May - but some events have been rescheduled, as shown below. 
+          While restrictions on live music remain in force, see the <a href="/jazzfinder" alt="Go to JazzFinder page" title="Go to JazzFinder page">JazzFinder</a> page for a two-weekly summary of online events, etc. 
         </p>
-        <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "bold"}}>
+        <p>&nbsp;</p>
+        {/* <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "bold"}}>
           <ul>
             <li>Swindon Jazz & Soul Festival postponed from 4 April to 18 July</li>
             <li>Woodstock Jazz:
@@ -41,7 +42,7 @@ function News() {
             </li>
           </ul>
         </p>
-        <p>&nbsp;</p>
+        <p>&nbsp;</p> */}
       </div>
       <div className="App-section">
         <p>

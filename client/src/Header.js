@@ -51,7 +51,7 @@ function Header ({ user, setUser, isLoggedIn, setLoggedIn }) {
     </Toggle>
     }
 
-      { isLoggedIn === false && 
+      {/* { isLoggedIn === false && 
       <Toggle>
         {({ on, toggle }) => (
           <Fragment>
@@ -61,7 +61,7 @@ function Header ({ user, setUser, isLoggedIn, setLoggedIn }) {
             </Modal>
           </Fragment>
         )}  
-      </Toggle>}
+      </Toggle>} */}
 
       {isLoggedIn === true && 
       <div id="logged-in-box" >
