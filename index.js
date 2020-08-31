@@ -17,10 +17,10 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static(path.resolve(__dirname, '.', 'build')))
 //routes
 app.get('/api/memberList', (_req, res) => {
-  console.log("url: ", url)
+  // console.log("url: ", url)
   // console.log("api-key: ", mc_api_key)
-  console.log("list id: ", list_id)
-  console.log("mailchimp", mailchimp)
+  // console.log("list id: ", list_id)
+  // console.log("mailchimp", mailchimp)
   mailchimp.get(`/lists/${list_id}/members?count=100`)
   .then(function(results){
     res.send(results)
@@ -50,11 +50,11 @@ app.post('/api/addMember', (_req, res) => {
 
 app.patch('/api/getMember', (_req, res) => {
   var memhash=md5(_req.body.email)
-  console.log("url: ", url)
+  // console.log("url: ", url)
   // console.log("api-key: ", mc_api_key)
-  console.log("list id: ", list_id)
-  console.log("mailchimp", mailchimp)
-  console.log("memhash", memhash)
+  // console.log("list id: ", list_id)
+  // console.log("mailchimp", mailchimp)
+  // console.log("memhash", memhash)
   mailchimp.patch(`/lists/${list_id}/members/${memhash}`)
   .then(function(results){
     res.send(results)

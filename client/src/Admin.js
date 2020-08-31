@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import Register from './Register';
 
 class Admin extends Component {
   constructor() {
@@ -42,43 +43,46 @@ class Admin extends Component {
     let members = this.state.listMembers
     if(this.state.listMembers) {
       return (
-        <div>
-          <h1 style={{ textAlign: "center" }}>OJF Members</h1>
-          <h5 style={{ textAlign: "center" }}>{`Total membership: ${this.state.totalItems}`}</h5>
-          <h5 style={{ textAlign: "center", fontWeight: "normal", color: "red" }}>*has admin privileges</h5>
-          <button onClick={this.clearList}>Clear List</button>
-          <p>&nbsp;</p>
-          <table className="memList">
-            {
-              members.map((member, index) =>
-                <tr className="memLine" key={index}>
-                <td className="memStar">
-                  {`${member.vip}` === "true" ? '*' : ' '}
-                </td>
-                <td className="memCol">
-                  {`${member.merge_fields.FNAME} 
-                  ${member.merge_fields.LNAME}: `}
-                </td>
-                <td className="memCol">
-                  {`${member.email_address}`}   
-                </td>
-                <td className="memCol">
-                  {`${member.status}`}
-                </td>
-                </tr>
-              )
-            }
-          </table>
+        <div id="contact-details" className="App-section">
+        <h3 style={{ textAlign: "center" }}>OJF Members</h3>
+        <br />
+          <h6 style={{ textAlign: "center", fontWeight: "normal", color: "red" }}>*has admin privileges</h6>
+          <button className="get-members-button" onClick={this.clearList}>Clear List</button>
+          <br /><br />
+          <p>
+            <table className="memList">
+              {
+                members.map((member, index) =>
+                  <tr className="memLine" key={index}>
+                  <td className="memStar">
+                    {`${member.vip}` === "true" ? '*' : ' '}
+                  </td>
+                  <td className="memCol">
+                    {`${member.merge_fields.FNAME} 
+                    ${member.merge_fields.LNAME}: `}
+                  </td>
+                  <td className="memCol">
+                    {`${member.email_address}`}   
+                  </td>
+                  <td className="memCol">
+                    {`${member.status}`}
+                  </td>
+                  </tr>
+                )
+              }
+            </table>
+          </p>
           <br />
         </div>
       )
     }
 
     return (
-      <div>
-        <h1>OJF Members</h1>
-        <button onClick={this.getMembers}>List All Members</button>
-        <p>&nbsp;</p>
+      <div id="contact-details" className="App-section">
+      <h3 style={{ textAlign: "center" }}>Manage Membership</h3>
+        <br />
+        <button className="get-members-button" onClick={this.getMembers}>List All Members</button>
+        <br /><br />
       </div>
     )
   }

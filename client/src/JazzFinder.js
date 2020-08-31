@@ -1,5 +1,5 @@
 import React from 'react';
-import jfpage1 from './images/mini-jf.jpg';
+import jfpage1 from './images/mini-jf-sep.jpg';
 // import jfpage2 from './images/jf-page-4.jpg';
 
 function JazzFinder() {

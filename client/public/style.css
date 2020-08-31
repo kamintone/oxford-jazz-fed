@@ -358,7 +358,7 @@ hr {
   background-color:#f3fa95;
   color: #253885;
   padding: 3px 5px;
-  margin-top: -25px;
+  margin-top: -35px;
   /* text-transform: uppercase; */
   border-radius: 5px;
 }
@@ -373,14 +373,15 @@ hr {
   font-weight: bold;
   background-color: #f3fa95;
   color: #253885;
-  padding: 3px 5px;
-  margin-top: -27px;
+  padding: 0 5px 1px 5px;
+  margin-top: -35px;
   border-radius: 5px;
   /* text-transform: uppercase; */
 }
 
 .memList {
   color: black;
+  background-color: lightgreen;
   text-align: left;
   margin: auto;
   padding: 20px;

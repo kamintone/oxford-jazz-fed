@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react';
 
+// import Home from './Home';
 import Login from './Login';
 import Logout from './Logout';
-import Register from './Register';
+// import Register from './Register';
 import Toggle from './utilities/Toggle';
 import Modal from './utilities/Modal';
 
@@ -45,6 +46,7 @@ function Header ({ user, setUser, isLoggedIn, setLoggedIn }) {
           <button className="login-button" onClick={toggle}>Logout</button>
           <Modal on={on} toggle={toggle}>
             <Logout setUser={setUser} setLoggedIn={setLoggedIn} />
+            {/* <Home /> */}
           </Modal>
         </Fragment>
       )}  

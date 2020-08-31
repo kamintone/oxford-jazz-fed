@@ -61,7 +61,7 @@ function LogIn ({ toggle, user, setUser, setLoggedIn }) {
         </div>
       )
     } else {
-    return (
+  return (
     <div id="App-content">
       <div className="App-form">
         <main className="pa3 blue-80">
@@ -73,6 +73,7 @@ function LogIn ({ toggle, user, setUser, setLoggedIn }) {
                 type="email"
                 name="email"
                 id="email"
+                autoFocus
                 required
               />
             </div>
