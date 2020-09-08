@@ -3,7 +3,7 @@
 }
 
 #header-box {
-  background-color: #253885;
+  background-color: #141f4b;
 }
 
 #main {
@@ -19,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #253885;
+  background-color: #141f4b;
   padding: 10px;
   color: #f3fa95;
   text-align: center;
@@ -30,7 +30,7 @@
 }
 
 .App-footer {
-  background-color: #253885;
+  background-color: #141f4b;
   padding: 10px;
   color: #f3fa95;
   text-align: center;
@@ -80,7 +80,7 @@
 }
 
 .App-section {
-  border: 2px solid #253885;
+  border: 2px solid #141f4b;
   border-radius: 5px;
   margin: auto;
   margin-bottom: 10px;
@@ -122,8 +122,8 @@
 
 #navbar ul a {
 	color: #f3fa95;
-  /* background-color: #253885; */
-  background-color: rgb(37, 56, 133);
+  /* background-color: #141f4b; */
+  background-color: rgb(20, 31, 75);
 	background-repeat: no-repeat;
 	white-space: pre;
   padding: 5px 10px;
@@ -133,11 +133,11 @@
 }
 
 #navbar ul a:hover {
-  background-color: rgba(37, 56, 133, 0.7);
+  background-color: rgba(20, 31, 75, 0.7);
 }
 
 .section {
-  border: 2px solid #253885;
+  border: 2px solid #141f4b;
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -175,7 +175,7 @@ body {
 	margin: 0;
 	padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  color: #253885;
+  color: #141f4b;
 }
 
 h1, h2, h4, p, ul, li {
@@ -240,15 +240,15 @@ ul.header li a:active {
 .weblink a:hover {
   text-decoration: none;
   cursor: pointer;
-  background-color: #253885;
+  background-color: #141f4b;
   color: beige;
 }
 
 .weblink a {
   float: left;
-  color: #253885;
+  color: #141f4b;
   background: linear-gradient(to top, rgba(144, 153, 238, 0.75), rgba(144, 153, 238, 0.25));
-  border: solid 2px #253885;
+  border: solid 2px #141f4b;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
@@ -264,15 +264,15 @@ ul.header li a:active {
 .weblink2 a:hover {
   text-decoration: none;
   cursor: pointer;
-  background-color: #253885;
+  background-color: #141f4b;
   color: beige;
 }
 
 .weblink2 a {
   float: left;
-  color: #253885;
+  color: #141f4b;
   background: linear-gradient(to top, rgba(144, 153, 238, 0.75), rgba(144, 153, 238, 0.25));
-  border: solid 2px #253885;
+  border: solid 2px #141f4b;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
@@ -286,7 +286,7 @@ ul.header li a:active {
 }
 
 #contact-details {
-  border: 2px solid #253885;
+  border: 2px solid #141f4b;
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -296,14 +296,14 @@ ul.header li a:active {
   font-size: 1.5em;
   padding-left: 10px;
   color: #eceeb4;
-  background-color: #253885;
-  border-bottom: 1px solid #253885;
+  background-color: #141f4b;
+  border-bottom: 1px solid #141f4b;
 }
 
 #contact-details h5 {
   text-align: left;
   padding-left: 5%;
-  color: #253885;
+  color: #141f4b;
 }
 
 #contact-details p {
@@ -311,8 +311,8 @@ ul.header li a:active {
   background-color: rgba(144, 153, 238, 0.25);
   width: 90%;
   font-weight: bold;
-  color: #253885;
-  border: 1px solid #253885;
+  color: #141f4b;
+  border: 1px solid #141f4b;
   border-radius: 5px;
   padding-bottom: 10px;
 }
@@ -323,14 +323,14 @@ hr {
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
-  color: #253885;
+  color: #141f4b;
   border-style: inset;
   border-width: 1px;
 }
 
 .get-members-button {
   color: beige;
-  background-color: #253885;
+  background-color: #141f4b;
   padding: 10px;
 }
 
@@ -339,7 +339,7 @@ hr {
   font-size: 1.0em;
   font-weight: bold;
   background-color: #f3fa95;
-  color: #253885;
+  color: #141f4b;
   padding: 3px 5px;
   margin-left: 10px;
   margin-top: -25px;
@@ -356,7 +356,7 @@ hr {
   font-size: 1.0em;
   font-weight: bold;
   background-color:#f3fa95;
-  color: #253885;
+  color: #141f4b;
   padding: 3px 5px;
   margin-top: -35px;
   /* text-transform: uppercase; */
@@ -372,7 +372,7 @@ hr {
   font-size: 1.0em;
   font-weight: bold;
   background-color: #f3fa95;
-  color: #253885;
+  color: #141f4b;
   padding: 0 5px 1px 5px;
   margin-top: -35px;
   border-radius: 5px;
@@ -385,7 +385,7 @@ hr {
   text-align: left;
   margin: auto;
   padding: 20px;
-  border: 1px solid #253885
+  border: 1px solid #141f4b
 }
 
 .memLine {
@@ -403,7 +403,7 @@ hr {
 }
 .prompt {
   background-color: rgb(236, 238, 180);
-  border: solid 2px #253885;
+  border: solid 2px #141f4b;
   text-align: center;
   padding: 10px;
   margin-left: auto;
@@ -414,14 +414,14 @@ hr {
 }
 
 .emailButton {
-  background-color: #253885;
+  background-color: #141f4b;
   color: beige;;
   padding: 7px;
   margin-top: 2px;
 }
 
 .btn:hover {
-  background-color: rgba(37, 56, 133, 0.7);
+  background-color: rgba(20, 31, 75, 0.7);
   color: white;
   text-decoration: none;
 }
@@ -430,7 +430,7 @@ hr {
   text-align: left;
   font-size: .9em;
   font-weight: bold;
-  background-color: #253885;
+  background-color: #141f4b;
   color: #f3fa95;
   padding: 10px;
   margin-top: 30px;
