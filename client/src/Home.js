@@ -23,7 +23,7 @@ function Home() {
       </div>
       <div className="App-section">
           <p style={{fontWeight: "bold"}}>
-          At present our normal quarterly JazzFinder is not being printed, but the online version is available on this site. Go to the <a href="/jazzfinder" alt="Go to JazzFinder page" title="Go to JazzFinder page">JazzFinder</a> page to see the latest issue.
+          Our quarterly JazzFinder is at the moment being produced only in digital form. Go to the <a href="/jazzfinder" alt="Go to JazzFinder page" title="Go to JazzFinder page">JazzFinder</a> page to see the latest issue.
           </p>
           <p>&nbsp;</p>
       </div>

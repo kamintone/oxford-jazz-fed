@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/whitley-bay-link.fcc734f0.png"
   },
   {
-    "revision": "4390c0b8aa65d03fcde0",
-    "url": "/static/js/main.7de4e325.chunk.js"
+    "revision": "d6e57e7f309551a80853",
+    "url": "/static/js/main.95bdbcde.chunk.js"
   },
   {
-    "revision": "01a49cbeda595b97ffbc5aaf26bd4e25",
-    "url": "/static/media/jf-OND-2020-2.01a49cbe.jpg"
+    "revision": "02b173909ba598ce0047449ed01fca19",
+    "url": "/static/media/jf-OND-2020-2.02b17390.jpg"
   },
   {
     "revision": "5903766b055039de00bbd654d3588972",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.3ffdc4a4.chunk.css"
   },
   {
-    "revision": "c257d1ae7affc67c785766fcea4d8e58",
+    "revision": "b142c4b4f5cd1e7a1d69e9539e9e2996",
     "url": "/index.html"
   }
 ];
