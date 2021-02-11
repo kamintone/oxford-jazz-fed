@@ -23,7 +23,7 @@ function Home() {
       </div>
       <div className="App-section">
           <p style={{fontWeight: "bold"}}>
-          Our quarterly JazzFinder is at the moment being produced only in digital form. Go to the <a href="/jazzfinder" alt="Go to JazzFinder page" title="Go to JazzFinder page">JazzFinder</a> page to see the latest issue.
+          Our quarterly JazzFinder is not being produced at the moment. Meanwhile, the <a href="/jazzfinder" alt="Go to JazzFinder page" title="Go to JazzFinder page">JazzFinder</a> page will be showing details of any online events that come to our notice.
           </p>
           <p>&nbsp;</p>
       </div>

@@ -137,9 +137,14 @@
 }
 
 .section {
-  border: 2px solid #141f4b;
+  background-color: azure;
+  border: 5px solid #141f4b;
   border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .section h3 {
@@ -448,4 +453,10 @@ hr {
   padding-bottom: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+article {
+  font-size: small;
+  margin-left: 2rem;
+  margin-right: auto;
 }

@@ -14,7 +14,7 @@ function News() {
         </h5>
         <hr />
         <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "bold"}}>
-          While restrictions on live music remain in force, see the <a href="/jazzfinder" alt="Go to JazzFinder page" title="Go to JazzFinder page">JazzFinder</a> page for a summary of online events, etc. 
+          While restrictions on live music remain in force, see the <a href="/jazzfinder" alt="Go to JazzFinder page" title="Go to JazzFinder page">JazzFinder</a> page for news of online events, etc. 
         </p>
         <p>&nbsp;</p>
         {/* <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "bold"}}>
