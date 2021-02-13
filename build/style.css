@@ -84,7 +84,7 @@
   border-radius: 5px;
   margin: auto;
   margin-bottom: 10px;
-  background-color: #eceeb4;
+  background-color: mintcream;
   max-width: 95%;
 }
 
@@ -300,7 +300,7 @@ ul.header li a:active {
   text-align: center;
   font-size: 1.5em;
   padding-left: 10px;
-  color: #eceeb4;
+  color: mintcream;
   background-color: #141f4b;
   border-bottom: 1px solid #141f4b;
 }
@@ -315,7 +315,7 @@ ul.header li a:active {
   margin-left: 5%;
   background-color: rgba(144, 153, 238, 0.25);
   width: 90%;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #141f4b;
   border: 1px solid #141f4b;
   border-radius: 5px;

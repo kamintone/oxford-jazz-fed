@@ -6,10 +6,10 @@ function JazzFinder() {
   return (
     <div id="jfimage">
       <section className="section">
-        <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "bold"}}>
+        <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "regular"}}>
           At present our normal quarterly JazzFinder is not being published. Instead, we are showing details of online and media jazz events as they are notified to us.
         </p>
-        <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "bold"}}>
+        <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "regular"}}>
           We are relying on people sending us information, so please feel free to tell us about anything that&rsquo;s going on!
         </p>
       </section>
@@ -26,20 +26,8 @@ function JazzFinder() {
         <br />
         <img className="jfpage" src={jfpage2} alt="Aug-16-to-31 page 2" title="Aug-16-to-31 page 2" />
       </section> */}
-      <section className="section" style={{background: "lightpink"}}>
-      <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "bold"}}>
-      <p>Friday, 12 February 2021 from 18:00 UTC</p>
-          <ul type="none">
-            <li>Online with Facebook Live or on YouTube - free event from <a href="https://www.facebook.com/benholdermusic/" target="_blank" rel="noopener noreferrer">Ben Holder Music</a>:</li>
-          </ul>
-          <article style={{marginTop: "-1rem"}}>
-            <p>Ben &amp; Sophie-Jayne Holder present a livestream of love themed swing &amp; jazz, with Ben on violin and (pre-recorded) piano accompanying Sophie's vocals.</p>
-            <p>Use the link above to get full details.</p>
-          </article>  
-      </p>
-      </section>
       <section className="section">
-      <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "bold"}}>
+      <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "regular"}}>
       <p>Monday, 15 February 2021 from 19:00-20:00 UTC</p>
           <ul type="none">
             <li>Live jazz from the <a href="https://www.facebook.com/groups/shedofsteele/" target="_blank" rel="noopener noreferrer">Shed of Steele</a>:</li>
@@ -50,6 +38,11 @@ function JazzFinder() {
             Presented live from the 'Shed of Steele' with Alex Steele on piano and Paul Jefferies plucking (or perhaps bowing) the double bass. Come join us! Use the link above to get full details.</p>
           </article>  
       </p>
+      </section>
+      <section className="section" style={{background: "lightpink"}}>
+      <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "regular"}}>
+      <p>On Friday, 12 February, Ben &amp; Sophie-Jayne Holder presented a      livestream of love themed swing &amp; jazz, with Ben on violin and (pre-recorded) piano accompanying Sophie's vocals.</p>
+      <p>If you missed it, you can catch up on YouTube by going to <a href="https://www.youtube.com/results?search_query=ben+holder+music" target="_blank" rel="noopener noreferrer">Ben Holder Music</a>, where you'll also find videos of their previous streaming sessions. Well worth a visit!</p></p>
       </section>
       <p>&nbsp;</p> 
     </div>
