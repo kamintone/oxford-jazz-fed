@@ -460,3 +460,44 @@ article {
   margin-left: 2rem;
   margin-right: auto;
 }
+
+/*photobanner*/
+
+#photobanner {
+	height: 256px;
+	width: 2500px;
+	margin-bottom: 0px;
+}
+
+#photobanner img {
+  width: 256px;
+}
+
+/*keyframe animations*/
+.first {
+	-webkit-animation: bannermove 60s linear infinite;
+	   -moz-animation: bannermove 60s linear infinite;
+	    -ms-animation: bannermove 60s linear infinite;
+	     -o-animation: bannermove 60s linear infinite;
+	        animation: bannermove 60s linear infinite;
+}
+
+@keyframes bannermove {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -3670px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2800px;
+ }
+
+}

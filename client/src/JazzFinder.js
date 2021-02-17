@@ -1,6 +1,8 @@
 import React from 'react';
 // import jfpage1 from './images/jf-OND-2020-1.jpg';
 // import jfpage2 from './images/jf-OND-2020-2.jpg';
+// import fleur from './images/fleur-stevenson.jpg';
+import ljllogo from './images/ljl-logo.png'
 
 function JazzFinder() {
   return (
@@ -27,18 +29,28 @@ function JazzFinder() {
         <img className="jfpage" src={jfpage2} alt="Aug-16-to-31 page 2" title="Aug-16-to-31 page 2" />
       </section> */}
       <section className="section">
-      <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "regular"}}>
-      <p>Monday, 15 February 2021 from 19:00-20:00 UTC</p>
-          <ul type="none">
-            <li>Live jazz from the <a href="https://www.facebook.com/groups/shedofsteele/" target="_blank" rel="noopener noreferrer">Shed of Steele</a>:</li>
-          </ul>
-          <article style={{marginTop: "-1rem"}}>
-            <p>Please welcome gorgeous singer and all round lovely person, <a href="https://www.fleurstevensonjazz.co.uk" target="_blank" rel="noopener noreferrer">Fleur Stevenson</a> for our next performance on Facebook Live.  Fleur will be singing music with a romantic 'Valentine's' feel, combined with melodies referencing the 'Moon'. Beautiful!</p>
-            <p>
-            Presented live from the 'Shed of Steele' with Alex Steele on piano and Paul Jefferies plucking (or perhaps bowing) the double bass. Come join us! Use the link above to get full details.</p>
-          </article>  
-      </p>
-      </section>
+        <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "regular"}}>
+        {/* <p>Monday, 15 February 2021 from 19:00-20:00 UTC</p>
+            <ul type="none">
+              <li>Live jazz from the <a href="https://www.facebook.com/groups/shedofsteele/" target="_blank" rel="noopener noreferrer">Shed of Steele</a>:</li>
+            </ul>
+            <article style={{marginTop: "-1rem"}}>
+              <p>
+              Please welcome gorgeous singer and all round lovely person, Fleur Stevenson for our next performance on Facebook Live.Fleur will be singing music with a romantic 'Valentine's' feel, combined with melodies referencing the 'Moon'. Beautiful! Presented live from the 'Shed of Steele' with Alex Steele on piano and Paul Jefferies plucking (or perhaps bowing) the double bass. Come join us! Use the link above to get full details.</p>
+            </article>   */}
+          <p>Learn Jazz Live Workshop - Saturday 27 to Sunday 28 February</p>
+            <article style={{marginTop: "-1rem", paddingTop: "1rem"}}>
+              <p>
+                If you're learning to <em>play</em> jazz, you may be interested in this 2-day virtual event that delivers the best jazz education you can experience, all in one spot! Click/tap the logo for more information.</p>
+            </article>
+            <div className="weblink" style={{height: "180px"}} >
+              <a href="https://members.learnjazzstandards.com/ljs-live-2021/"
+              target="_blank" rel="noopener noreferrer" alt="Learn Jazz Live"
+              title="Learn Jazz Live">
+              <img src={ljllogo} style={{margin: "0"}} alt="" /></a>
+            </div>
+          </p>
+        </section>
       <section className="section" style={{background: "lightpink"}}>
       <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "regular"}}>
       <p>On Friday, 12 February, Ben &amp; Sophie-Jayne Holder presented a      livestream of love themed swing &amp; jazz, with Ben on violin and (pre-recorded) piano accompanying Sophie's vocals.</p>

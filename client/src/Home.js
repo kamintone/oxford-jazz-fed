@@ -6,6 +6,28 @@ function Home() {
   return (
     <div id="App-content">
       <img className="home-img" src={hilda} alt="Hilda Ward's Lady Syncopators (1928)" title="Hilda Ward's Lady Syncopators (1928)" />
+      {/* <div id="photobanner">
+    	<img className="first" src="image-1.jpg" alt="" title="" />
+    	<img src="image-2.jpg" alt="" title="" />
+    	<img src="image-3.jpg" alt="" title="" />
+    	<img src="image-4.jpg" alt="" title="" />
+    	<img src="image-5.jpg" alt="" title="" />
+    	<img src="image-6.jpg" alt="" title="" />
+    	<img src="image-7.jpg" alt="" title="" />
+    	<img src="image-8.jpg" alt="" title="" />
+    	<img src="image-9.jpg" alt="" title="" />
+    	<img src="image-10.jpg" alt="" title="" />
+    	<img src="image-11.jpg" alt="" title="" />
+    	<img src="image-12.jpg" alt="" title="" />
+    	<img src="image-13.jpg" alt="" title="" />
+    	<img src="image-14.jpg" alt="" title="" />
+    	<img src="image-1.jpg" alt="" title="" />
+    	<img src="image-2.jpg" alt="" title="" />
+    	<img src="image-3.jpg" alt="" title="" />
+    	<img src="image-4.jpg" alt="" title="" />
+    	<img src="image-5.jpg" alt="" title="" />
+    	<img src="image-6.jpg" alt="" title="" />
+    </div> */}
       <div className="App-section">
         {/* <p style={{fontStyle: "italic", fontWeight: "bold", fontSize: "1.1em", color: "red"}}>Please note that this site is still under development; the 'Register' button is not yet operable. For 'Stop Press' items, including details of events rescheduled because of COVID-19, go to the 'News' page.
         </p> */}
