@@ -6,7 +6,7 @@ function Contact() {
       <div id="contact-details" className="App-section">
         <h3>Contact Us</h3>
         <br />
-        <h5>Committee Members:</h5>
+        <h5 style={{fontSize: "1.25em"}}>Committee Members:</h5>
         <p>OXFORDSHIRE JAZZ FEDERATION<br />
           c/o 21 Sandford Close<br />
           Abingdon<br />

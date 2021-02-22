@@ -5,44 +5,25 @@ function News() {
   return (
     <div id="App-content">
       <div className="App-section">
-      <h4>STOP PRESS</h4>
+      {/* <br /> */}
+        <h5 style={{textAlign: "center", color: "red", fontSize: "1.25em", marginTop: "10px"}}>
+          Chick Corea
+        </h5>
+        <hr />
+        <p style={{fontSize: "1em", textAlign: "left", fontWeight: "bold", margin: "-10px 0 10px 0"}}>
+          Michael Lake has collected some tributes to pianist and composer Chick Corea, who died on 9 February 2021, You can read them on Michael's <a href="https://musicsavvy.com/remembrances-of-chick-corea-by-friends-and-colleagues/" alt="Visit Music Savvy" title="Visit Music Savvy"><em>Music Savvy</em></a> blog. 
+        </p>
+        {/* <p>&nbsp;</p> */}
       </div>
       <div className="App-section">
-        <br />
-        <h5 style={{textAlign: "center", color: "red"}}>
+        {/* <br /> */}
+        <h5 style={{textAlign: "center", color: "red", fontSize: "1.25em", marginTop: "10px"}}>
           Cancellations and Rescheduled Events
         </h5>
         <hr />
-        <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "bold"}}>
+        <p style={{fontSize: "1em", textAlign: "left", fontWeight: "bold", margin: "-10px 0 10px 0"}}>
           While restrictions on live music remain in force, see the <a href="/jazzfinder" alt="Go to JazzFinder page" title="Go to JazzFinder page">JazzFinder</a> page for news of online events, etc. 
         </p>
-        <p>&nbsp;</p>
-        {/* <p style={{fontSize: "1rem", textAlign: "left", fontWeight: "bold"}}>
-          <ul>
-            <li>Swindon Jazz & Soul Festival postponed from 4 April to 18 July</li>
-            <li>Woodstock Jazz:
-              <ul type="square">
-                <li>Rob Terry Trio (was March 20th) - New Date is August 21st 2020</li>
-                <li>Damon Brown (was April 17th) - New Date is October 30th 2020</li>
-              </ul>
-            </li>
-            <li>Jazz Cave/Cirencester:
-              <ul type="square">
-                <li>Alex Hutton (was March 18th) - New Date is August 26th 2020</li>
-                <li>
-                  Kevin Fitzsimmons (was April 22nd) - New Date December 16th 2020
-                  Now featuring TINA MAY’S CHRISTMAS SPECIAL (Kevin will come back to perform in 2021)
-                </li>
-              </ul>
-            </li>
-            <li>Burford Jazz:
-              <ul type="square">
-                <li>Simon Spillett (was April 11th) - New Date is November 13th 2020</li>
-              </ul>
-            </li>
-          </ul>
-        </p>
-        <p>&nbsp;</p> */}
       </div>
       <div className="App-section">
         <p>

@@ -1,37 +1,54 @@
 import React from 'react';
-import hilda from './images/hildward.jpg';
+// import hilda from './images/hildward.jpg';
+import image1 from './images/image-1.jpg';
+import image2 from './images/image-2.jpg';
+import image3 from './images/image-3.jpg';
+import image4 from './images/image-4.jpg';
+import image5 from './images/image-5.jpg';
+import image6 from './images/image-6.jpg';
+import image7 from './images/image-7.jpg';
+import image8 from './images/image-8.jpg';
+import image9 from './images/image-9.jpg';
+import image10 from './images/image-10.jpg';
+import image11 from './images/image-11.jpg';
+import image12 from './images/image-12.jpg';
+import image13 from './images/image-13.jpg';
+import image14 from './images/image-14.jpg';
 
 function Home() {
   console.log("Entered Home function");
   return (
     <div id="App-content">
-      <img className="home-img" src={hilda} alt="Hilda Ward's Lady Syncopators (1928)" title="Hilda Ward's Lady Syncopators (1928)" />
-      {/* <div id="photobanner">
-    	<img className="first" src="image-1.jpg" alt="" title="" />
-    	<img src="image-2.jpg" alt="" title="" />
-    	<img src="image-3.jpg" alt="" title="" />
-    	<img src="image-4.jpg" alt="" title="" />
-    	<img src="image-5.jpg" alt="" title="" />
-    	<img src="image-6.jpg" alt="" title="" />
-    	<img src="image-7.jpg" alt="" title="" />
-    	<img src="image-8.jpg" alt="" title="" />
-    	<img src="image-9.jpg" alt="" title="" />
-    	<img src="image-10.jpg" alt="" title="" />
-    	<img src="image-11.jpg" alt="" title="" />
-    	<img src="image-12.jpg" alt="" title="" />
-    	<img src="image-13.jpg" alt="" title="" />
-    	<img src="image-14.jpg" alt="" title="" />
-    	<img src="image-1.jpg" alt="" title="" />
-    	<img src="image-2.jpg" alt="" title="" />
-    	<img src="image-3.jpg" alt="" title="" />
-    	<img src="image-4.jpg" alt="" title="" />
-    	<img src="image-5.jpg" alt="" title="" />
-    	<img src="image-6.jpg" alt="" title="" />
-    </div> */}
+      {/* <img className="home-img" src={hilda} alt="Hilda Ward's Lady Syncopators (1928)" title="Hilda Ward's Lady Syncopators (1928)" /> */}
+    <div id="container">
+      <div className="photobanner">
+        <img className="first" src={image1} alt="Billie Holiday" title="Billie Holiday" />
+        <img src={image2} alt="Charles Mingus" title="Charles Mingus" />
+        <img src={image3} alt="Charlie Parker" title="Charlie Parker" />
+        <img src={image4} alt="Dave Brubeck" title="Dave Brubeck" />
+        <img src={image5} alt="Duke Ellington" title="Duke Ellington" />
+        <img src={image6} alt="Ella Fitzgerald" title="Ella Fitzgerald" />
+        <img src={image7} alt="Erroll Garner" title="Erroll Garner" />
+        <img src={image8} alt="Herbie Hancock" title="Herbie Hancock" />
+        <img src={image9} alt="Lester Young and Jo Jones" title="Lester Young and Jo Jones" />
+        <img src={image10} alt="Miles Davis" title="Miles Davis" />
+        <img src={image11} alt="Django Reinhardt" title="Django Reinhardt" />
+        <img src={image12} alt="Sarah Vaughan" title="Sarah Vaughan" />
+        <img src={image13} alt="Thelonious Monk" title="Thelonious Monk" />
+        <img src={image14} alt="Louis Armstrong" title="Louis Armstrong" />
+        <img src={image1} alt="Billie Holiday 2" title="Billie Holiday 2" />
+        <img src={image2} alt="Charles Mingus 2" title="Charles Mingus 2" />
+        <img src={image3} alt="Charlie Parker 2" title="Charlie Parker 2" />
+        <img src={image4} alt="Dave Brubeck 2" title="Dave Brubeck 2" />
+        <img src={image5} alt="Duke Ellington 2" title="Duke Ellington 2" />
+        <img src={image6} alt="Ella Fitzgerald" title="Ella Fitzgerald 2" />
+        <img src={image7} alt="Erroll Garner" title="Erroll Garner 2" />
+        <img src={image8} alt="Herbie Hancock" title="Herbie Hancock" />
+        <img src={image9} alt="Lester Young and Jo Jones" title="Lester Young and Jo Jones" />
+        <img src={image10} alt="Miles Davis" title="Miles Davis" />
+      </div>
+    </div>
       <div className="App-section">
-        {/* <p style={{fontStyle: "italic", fontWeight: "bold", fontSize: "1.1em", color: "red"}}>Please note that this site is still under development; the 'Register' button is not yet operable. For 'Stop Press' items, including details of events rescheduled because of COVID-19, go to the 'News' page.
-        </p> */}
-        {/* <hr /> */}
         <p style={{fontWeight: "regular"}}>Created for jazz musicians, supporters and venue providers,  the Oxfordshire Jazz Federation is now over 30 years old. We aim to act as a forum for the many styles of jazz; publicising events, encouraging new ventures and inviting ideas from members and supporters.</p>
         <p style={{fontWeight: "regular"}}>Membership of Oxfordshire Jazz Federation costs only £5 a year, renewable on April 1st.  Musicians and supporters are invited to join us to get advance notice of gigs and to help spread the word about Jazz in Oxfordshire and neighbouring counties.</p>
         <hr />

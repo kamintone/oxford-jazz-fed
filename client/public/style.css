@@ -1,5 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-size: medium;
+}
+
 .App {
-  text-align: center;
+  text-align: left;
+  font-size: 17px;
 }
 
 #header-box {
@@ -21,7 +31,7 @@
 .App-header {
   background-color: #141f4b;
   padding: 10px;
-  color: #f3fa95;
+  color: beige;
   text-align: center;
 }
 
@@ -32,7 +42,7 @@
 .App-footer {
   background-color: #141f4b;
   padding: 10px;
-  color: #f3fa95;
+  color: beige;
   text-align: center;
 }
 
@@ -47,28 +57,23 @@
 .App-subtitle {
   text-align: center;
   font-size: 0.8em;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin-top: -10px;
+  padding-right: 1em;
+  padding-left: 1em;
+  margin-top: -0.5em;
 }
 
 .App-img {
   margin-left: 0;
   margin-right: auto;
-  margin-bottom: 8px;
-  margin-top: 3px;
+  margin-bottom: 0.4em;
+  margin-top: 0.15em;
   border: none;
   border-radius: 5px;
-}
-
-.App-intro {
-  font-size: small;
-  margin-left: 15%;
-  margin-right: auto;
+  width: 12.5em;
 }
 
 #App-content {
-  padding: 0 30px;
+  padding: 0;
   font-size: 1.0em;
 }
 
@@ -121,7 +126,7 @@
 }
 
 #navbar ul a {
-	color: #f3fa95;
+	color: beige;
   /* background-color: #141f4b; */
   background-color: rgb(20, 31, 75);
 	background-repeat: no-repeat;
@@ -176,7 +181,7 @@ html {
 body {
 	min-height: 100%;
 	background-color: beige; 
-	/*was #fbf1a9*/
+	/*was #fbf1a0*/
 	margin: 0;
 	padding: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -262,8 +267,8 @@ ul.header li a:active {
 }
 
 .weblink img {
-  border: 3px solid rgb(236, 238, 180);
-  margin-left: 10px;
+  border: 3px solid rgb(230, 238, 180);
+  margin-left: 108x;
 }
 
 .weblink2 a:hover {
@@ -343,7 +348,7 @@ hr {
   float: left;
   font-size: 1.0em;
   font-weight: bold;
-  background-color: #f3fa95;
+  background-color: #f3fa05;
   color: #141f4b;
   padding: 3px 5px;
   margin-left: 10px;
@@ -360,12 +365,11 @@ hr {
   float: left;
   font-size: 1.0em;
   font-weight: bold;
-  background-color:#f3fa95;
+  background-color: beige;
   color: #141f4b;
-  padding: 3px 5px;
-  margin-top: -35px;
-  /* text-transform: uppercase; */
-  border-radius: 5px;
+  padding: 0.15em 0.25em;
+  margin-top: -1.75em;
+  border-radius: 0.25em;
 }
 
 .login-button:hover {
@@ -376,11 +380,11 @@ hr {
   float: right;
   font-size: 1.0em;
   font-weight: bold;
-  background-color: #f3fa95;
   color: #141f4b;
-  padding: 0 5px 1px 5px;
-  margin-top: -35px;
-  border-radius: 5px;
+  background-color: beige;
+  padding: 0 0.25em 0.05em 0.25em;
+  margin-top: -1.75em;
+  border-radius: 0.25em;
   /* text-transform: uppercase; */
 }
 
@@ -402,27 +406,28 @@ hr {
 }
 
 .memStar {
-  font-size: 1.0rem;
+  font-size: 1.0em;
   color: red;
   padding: 0 0 0 3px;
 }
 .prompt {
-  background-color: rgb(236, 238, 180);
-  border: solid 2px #141f4b;
+  background-color: rgb(230, 238, 180);
+  border: solid 2px #14184b;
   text-align: center;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  width: 290px;
+  width: 200px;
   position: relative;
   top: 5px;
 }
 
 .emailButton {
   background-color: #141f4b;
-  color: beige;;
-  padding: 7px;
-  margin-top: 2px;
+  color: beige;
+  font-size: 1em;
+  padding: 0.3em;
+  margin-top: 0.1em;
 }
 
 .btn:hover {
@@ -436,7 +441,7 @@ hr {
   font-size: .9em;
   font-weight: bold;
   background-color: #141f4b;
-  color: #f3fa95;
+  color: beige;
   padding: 10px;
   margin-top: 30px;
   margin-right: 20px;
@@ -444,7 +449,7 @@ hr {
 }
 
 .internal-link:hover {
-  color: #f3fa95;
+  color: #f3fa05;
   text-decoration: none;
 }
 
@@ -456,48 +461,97 @@ hr {
 }
 
 article {
-  font-size: small;
-  margin-left: 2rem;
+  font-size: 1em;
+  margin-left: 2em;
   margin-right: auto;
+}
+
+#container {
+  max-width: 95%;
+  border: solid 2px #141f4b;
+  border-radius: 5px;
+	overflow: hidden;
+	margin: 0 auto;
+  margin-bottom: 1.5em;
+	background: white;
 }
 
 /*photobanner*/
 
-#photobanner {
-	height: 256px;
-	width: 2500px;
+.photobanner {
+	/* height: 150px;
+	width: 2800px; */
+	height: 8.8em;
+	width: 140em;
 	margin-bottom: 0px;
 }
 
-#photobanner img {
-  width: 256px;
+.photobanner img {
+  width: 8.8em;
+  text-align: left;
+  margin-left: 0px;
+  margin-right: 0.25em;
 }
+
+/* .photobanner img:hover {
+  width: 160px;
+  text-align: left;
+  margin-left: 0px;
+  margin-right: 0px;
+} */
 
 /*keyframe animations*/
 .first {
-	-webkit-animation: bannermove 60s linear infinite;
-	   -moz-animation: bannermove 60s linear infinite;
-	    -ms-animation: bannermove 60s linear infinite;
-	     -o-animation: bannermove 60s linear infinite;
-	        animation: bannermove 60s linear infinite;
+  /* text-align: left; */
+	-webkit-animation: bannermove 120s linear infinite;
+	   -moz-animation: bannermove 120s linear infinite;
+	    -ms-animation: bannermove 120s linear infinite;
+	     -o-animation: bannermove 120s linear infinite;
+	        animation: bannermove 120s linear infinite;
 }
 
 @keyframes bannermove {
- 0% {
-    margin-left: 0px;
- }
- 100% {
-    margin-left: -3670px;
- }
-
+  0% {
+      margin-left: 0px;
+  }
+  100% {
+      /* margin-left: -2170px; */
+      margin-left: -108.5em;
+  }
 }
 
 @-moz-keyframes bannermove {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -2800px;
- }
-
+  0% {
+      margin-left: 0px;
+  }
+  100% {
+      margin-left: -2170px;
+  }
 }
+
+@-webkit-keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2170px;
+  }
+}
+  
+ @-ms-keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2170px;
+  }
+ }
+ 
+ @-o-keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2170px;
+  }
+ }

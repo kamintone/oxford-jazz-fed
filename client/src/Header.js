@@ -7,7 +7,7 @@ import Logout from './Logout';
 import Toggle from './utilities/Toggle';
 import Modal from './utilities/Modal';
 
-import jazzfinder from './images/jazz-finder-faded.png';
+import jazzfinder from './images/jazz-finder-reversed.png';
 
 function Header ({ user, setUser, isLoggedIn, setLoggedIn }) {
   console.log("Entered Header function")
