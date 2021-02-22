@@ -46,6 +46,10 @@ function Home() {
         <img src={image8} alt="Herbie Hancock" title="Herbie Hancock" />
         <img src={image9} alt="Lester Young and Jo Jones" title="Lester Young and Jo Jones" />
         <img src={image10} alt="Miles Davis" title="Miles Davis" />
+        <img src={image11} alt="Django Reinhardt" title="Django Reinhardt" />
+        <img src={image12} alt="Sarah Vaughan" title="Sarah Vaughan" />
+        <img src={image13} alt="Thelonious Monk" title="Thelonious Monk" />
+        <img src={image14} alt="Louis Armstrong" title="Louis Armstrong" />
       </div>
     </div>
       <div className="App-section">

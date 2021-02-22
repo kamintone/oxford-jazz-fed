@@ -516,7 +516,7 @@ article {
   }
   100% {
       /* margin-left: -2170px; */
-      margin-left: -108.5em;
+      margin-left: -126.75em;
   }
 }
 
@@ -525,7 +525,7 @@ article {
       margin-left: 0px;
   }
   100% {
-      margin-left: -2170px;
+    margin-left: -126.75em;
   }
 }
 
@@ -534,16 +534,14 @@ article {
     margin-left: 0px;
   }
   100% {
-    margin-left: -2170px;
+    margin-left: -126.75em;
   }
 }
-  
- @-ms-keyframes bannermove {
-  0% {
-    margin-left: 0px;
+margin-left: -2170px;
+
   }
   100% {
-    margin-left: -2170px;
+    margin-left: -126.75em;
   }
  }
  
@@ -552,6 +550,6 @@ article {
     margin-left: 0px;
   }
   100% {
-    margin-left: -2170px;
+    margin-left: -126.75em;
   }
  }
