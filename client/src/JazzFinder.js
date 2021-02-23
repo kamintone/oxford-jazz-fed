@@ -54,7 +54,7 @@ function JazzFinder() {
       <section className="section" style={{background: "lightpink"}}>
       <p style={{fontSize: "1em", textAlign: "left", fontWeight: "regular"}}>
       <p>On Friday, 12 February, Ben &amp; Sophie-Jayne Holder presented a      livestream of love themed swing &amp; jazz, with Ben on violin and (pre-recorded) piano accompanying Sophie's vocals.</p>
-      <p>If you missed it, you can catch up on YouTube by going to <a href="https://www.youtube.com/results?search_query=ben+holder+music" target="_blank" rel="noopener noreferrer">Ben Holder Music</a>, where you'll also find videos of their previous streaming sessions. Well worth a visit!</p></p>
+      <p>If you missed it, you can catch up on YouTube by going to <a href="https://www.youtube.com/user/steppelli" target="_blank" rel="noopener noreferrer">Ben Holder Music</a>, where you'll also find videos of their previous streaming sessions. Well worth a visit!</p></p>
       </section>
       <p>&nbsp;</p> 
     </div>

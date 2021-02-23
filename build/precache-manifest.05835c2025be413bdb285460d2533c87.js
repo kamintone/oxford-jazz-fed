@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "67a5f38b035e1c8e9ba4",
-    "url": "/static/js/main.76f74708.chunk.js"
+    "revision": "1ce99771076cb55c5060",
+    "url": "/static/js/main.2060f5d1.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/static/media/ljl-logo.df45ab18.png"
   },
   {
-    "revision": "07f888e350102dc0fe37d4c0dc035856",
+    "revision": "8384f91e64c05d878753f2c142eb7ce8",
     "url": "/index.html"
   }
 ];
