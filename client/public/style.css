@@ -79,8 +79,8 @@
 }
 
 #jfimage {
-  margin-top: 0px;
-  padding-top: 20px;
+  margin-top: 0;
+  padding-top: 1em;
   border: 1px solid black;
   width:100%;
 }
@@ -89,7 +89,7 @@
   border: 2px solid #141f4b;
   border-radius: 5px;
   margin: auto;
-  margin-bottom: 10px;
+  margin-bottom: 0.5em;
   background-color: mintcream;
   max-width: 95%;
 }
@@ -144,7 +144,7 @@
 
 .section {
   background-color: azure;
-  border: 5px solid #141f4b;
+  border: 2px solid #141f4b;
   border-radius: 5px;
   margin-left: 20px;
   margin-right: 20px;
