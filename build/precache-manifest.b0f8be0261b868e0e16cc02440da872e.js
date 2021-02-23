@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/static/media/ljl-logo.df45ab18.png"
   },
   {
-    "revision": "8384f91e64c05d878753f2c142eb7ce8",
+    "revision": "c9a4495a7aa920c587248ff16e6c432a",
     "url": "/index.html"
   }
 ];
