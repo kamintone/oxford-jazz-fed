@@ -2,7 +2,7 @@ import React from 'react';
 // import jfpage1 from './images/jf-OND-2020-1.jpg';
 // import jfpage2 from './images/jf-OND-2020-2.jpg';
 // import fleur from './images/fleur-stevenson.jpg';
-import ljllogo from './images/ljl-logo.png'
+import stuart from './images/stuart-henderson.jpg'
 
 function JazzFinder() {
   return (
@@ -30,31 +30,22 @@ function JazzFinder() {
       </section> */}
       <section className="section">
         <p style={{fontSize: "1em", textAlign: "left", fontWeight: "regular"}}>
-        {/* <p>Monday, 15 February 2021 from 19:00-20:00 UTC</p>
+        <span style={{fontWeight: "bold"}}>Monday, 1 March 2021 from 19:00-20:00 UTC</span>
             <ul type="none">
               <li>Live jazz from the <a href="https://www.facebook.com/groups/shedofsteele/" target="_blank" rel="noopener noreferrer">Shed of Steele</a>:</li>
             </ul>
-            <article style={{marginTop: "-1em"}}>
+            {/* <article style={{marginTop: "-1em"}}> */}
               <p>
-              Please welcome gorgeous singer and all round lovely person, Fleur Stevenson for our next performance on Facebook Live.Fleur will be singing music with a romantic 'Valentine's' feel, combined with melodies referencing the 'Moon'. Beautiful! Presented live from the 'Shed of Steele' with Alex Steele on piano and Paul Jefferies plucking (or perhaps bowing) the double bass. Come join us! Use the link above to get full details.</p>
-            </article>   */}
-          <p>Learn Jazz Live Workshop - Saturday 27 to Sunday 28 February</p>
-            <article style={{marginTop: "-1em", paddingTop: "1em"}}>
-              <p style={{fontSize: "1em"}}>
-                If you're learning to <em>play</em> jazz, you may be interested in this 2-day virtual event that delivers the best jazz education you can experience, all in one spot! Click/tap the logo for more information.</p>
-            </article>
-            <div className="weblink" style={{height: "180px"}} >
-              <a href="https://members.learnjazzstandards.com/ljs-live-2021/"
-              target="_blank" rel="noopener noreferrer" alt="Learn Jazz Live"
-              title="Learn Jazz Live">
-              <img src={ljllogo} style={{margin: "0"}} alt="" /></a>
-            </div>
+              <img src={stuart} alt="Stuart Henderson" style={{float: "left", width: "15em", marginRight: "0.5em", border: "2px solid darkblue", borderRadius: "0.25em"}} /> 
+              We are delighted to welcome the fantastic trumpeter, Stuart Henderson, to the Shed of Steele. Stuart will be coming along to play some beautiful, swinging, and deeply groovy music, exploring the vast repertoire of the world's most famous jazz trumpeters. Joining Stuart, we have the man who actually lives in the shed at the bottom of his garden, the remarkable Alex Steele on piano, and we are excited to have once again the insuperable Paul Jefferies on double bass. Get ready for a special treat from the Shed of Steele! </p>
+            {/* </article>   */}
+            <p>&nbsp;</p> 
           </p>
         </section>
-        <section className="section" style={{background: "lightpink"}}>
+        <section className="section" style={{background: "lightpink", clear: "left"}}>
           <p style={{fontSize: "1em", textAlign: "left", fontWeight: "regular"}}>
-            <p>On Friday, 12 February, Ben &amp; Sophie-Jayne Holder presented a      livestream of love themed swing &amp; jazz, with Ben on violin and (pre-recorded) piano accompanying Sophie's vocals.</p>
-            <p>If you missed it, you can catch up on YouTube by going to <a href="https://www.youtube.com/user/steppelli" target="_blank" rel="noopener noreferrer">Ben Holder Music</a>, where you'll also find videos of their previous streaming sessions. Well worth a visit!</p>
+            <p>On Friday, 12 February, Ben &amp; Sophie-Jayne Holder presented a livestream of love&ndash;themed swing &amp; jazz, with Ben on violin and (pre&ndash;recorded) piano accompanying Sophie&rsquo;s vocals.</p>
+            <p>If you missed it, you can catch up on YouTube by going to <a href="https://www.youtube.com/user/steppelli" target="_blank" rel="noopener noreferrer">Ben Holder Music</a>, where you'll also find videos of their previous streaming sessions. Well worth a visit! The next one is scheduled for <span style={{fontWeight: "bold"}}>Friday. 12 March</span> &ndash; don&rsquo;t miss it!</p>
             <p>&nbsp;</p> 
           </p>
         </section>
