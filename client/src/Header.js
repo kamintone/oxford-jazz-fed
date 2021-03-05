@@ -22,7 +22,7 @@ function Header ({ user, setUser, isLoggedIn, setLoggedIn }) {
       <h1 className="App-title">Oxfordshire Jazz Federation</h1>
       <span className="App-subtitle">incorporating</span>
       <br />
-      <img src={jazzfinder} className="App-img" alt="JazzFinder" title="JazzFinder" />
+      <img src={jazzfinder} className="App-img" alt="Jazzfinder" title="Jazzfinder" />
       <br />
       <br />
 

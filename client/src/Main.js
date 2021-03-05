@@ -3,7 +3,7 @@ import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import Home from './Home'
 import News from './News'
 import Links from './Links'
-import JazzFinder from './JazzFinder'
+import Jazzfinder from './Jazzfinder'
 import Contact from './Contact'
 import Payment from './Payment'
 import Admin from './Admin';
@@ -18,7 +18,7 @@ const Main = ({ vip }) => {
             <ul className="header">
               <li><Link to="/">Home</Link></li>
               <li><Link to="/news">News</Link></li>
-              <li><Link to="/jazzfinder">JazzFinder</Link></li>
+              <li><Link to="/jazzfinder">Jazzfinder</Link></li>
               <li><Link to="/links">Links</Link></li>
               <li><Link to="/contact">Contact</Link></li>
               <li><Link to="/payment">Payment</Link></li>
@@ -27,7 +27,7 @@ const Main = ({ vip }) => {
           </div>
           <Route exact path="/" component={Home} />
           <Route path="/news" component={News} />
-          <Route path="/jazzfinder" component={JazzFinder} />
+          <Route path="/jazzfinder" component={Jazzfinder} />
           <Route path="/links" component={Links} />
           <Route path="/contact" component={Contact} />
           <Route path="/payment" component={Payment} />

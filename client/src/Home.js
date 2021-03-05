@@ -66,7 +66,7 @@ function Home() {
       </div>
       <div className="App-section">
           <p style={{fontWeight: "regular"}}>
-          Our quarterly JazzFinder is not being produced at the moment. Meanwhile, the <a href="/jazzfinder" alt="Go to JazzFinder page" title="Go to JazzFinder page">JazzFinder</a> page will be showing details of any online events that come to our notice.
+          Our quarterly Jazzfinder is not being produced at the moment. Meanwhile, the <a href="/jazzfinder" alt="Go to Jazzfinder page" title="Go to Jazzfinder page">Jazzfinder</a> page will be showing details of any online events that come to our notice.
           </p>
           <p>&nbsp;</p>
       </div>

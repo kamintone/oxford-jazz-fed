@@ -22,7 +22,7 @@ function News() {
         </h5>
         <hr />
         <p style={{fontSize: "1em", textAlign: "left", fontWeight: "bold", margin: "-10px 0 10px 0"}}>
-          While restrictions on live music remain in force, see the <a href="/jazzfinder" alt="Go to JazzFinder page" title="Go to JazzFinder page">JazzFinder</a> page for news of online events, etc. 
+          While restrictions on live music remain in force, see the <a href="/jazzfinder" alt="Go to Jazzfinder page" title="Go to Jazzfinder page">Jazzfinder</a> page for news of online events, etc. 
         </p>
       </div>
       <div className="App-section">
@@ -30,7 +30,7 @@ function News() {
           This page should enable users to keep up with the latest developments in the jazz world, with special emphasis on the local (Oxfordshire) scene, of course.
         </p>
         <p>
-          Whether this works or not depends on YOU - we want to hear about new clubs or venues opening (or closing); about last-minute gigs which didn't make it into the current JazzFinder; about the emergence of new bands or the demise of old ones; about musicians changing allegiance or hanging up their instruments or, sadly, shuffling off this mortal coil - anything and everything that you think may be of interest to our users.
+          Whether this works or not depends on YOU - we want to hear about new clubs or venues opening (or closing); about last-minute gigs which didn't make it into the current Jazzfinder; about the emergence of new bands or the demise of old ones; about musicians changing allegiance or hanging up their instruments or, sadly, shuffling off this mortal coil - anything and everything that you think may be of interest to our users.
         </p>
         <p>
           Use the details on the CONTACT page to email your news to us, and we'll publish it here as soon as we can.
