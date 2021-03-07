@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "649f984f097966ddbf6c",
-    "url": "/static/js/main.c4351252.chunk.js"
+    "revision": "b08182e7255aa33faf08",
+    "url": "/static/js/main.7d267d5f.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "e20d8f3f54b207b5a81e",
+    "revision": "b908facbc588e2200358",
     "url": "/static/css/2.ba598884.chunk.css"
   },
   {
-    "revision": "e20d8f3f54b207b5a81e",
-    "url": "/static/js/2.98881fbb.chunk.js"
+    "revision": "b908facbc588e2200358",
+    "url": "/static/js/2.c5205480.chunk.js"
   },
   {
     "revision": "d7058b398dc6007afaf788b371dd7a66",
@@ -124,7 +124,11 @@ self.__precacheManifest = [
     "url": "/static/media/shed-of-steele.19f312de.jpg"
   },
   {
-    "revision": "2b9cc5f0d2e563324643424b8690ed81",
+    "revision": "1f818c87995f424da99fabd9f7d70651",
+    "url": "/static/media/electric-lady-big-band.1f818c87.jpg"
+  },
+  {
+    "revision": "5f0f3a483c48720f8e3b5a8142b26785",
     "url": "/index.html"
   }
 ];
