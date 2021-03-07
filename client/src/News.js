@@ -5,6 +5,21 @@ function News() {
   return (
     <div id="App-content">
       <div className="App-section">
+      <h5 style={{textAlign: "center", color: "red", fontSize: "1.25em", marginTop: "10px"}}>
+          Billie: In Search of Billie Holiday
+        </h5>
+        <hr />
+        <p style={{fontWeight: "bold"}}>Saturday, 13 March 2021 at 21:45 on BBC Two<br />
+        </p>
+        <p>
+          In the late 1960s journalist Linda Lipnack Kuehl set out to write the definitive biography of Billie Holiday. Over the next decade, she tracked down and tape-recorded interviews with the people who knew her, including musical greats like Charles Mingus, Tony Bennett and Count Basie. But Linda’s book was never finished, and the tapes remained unplayed – until now.
+        </p>
+        <p>
+          With unprecedented and exclusive access to Linda's 200 hours of never-before-heard interviews, this documentary showcases an American legend, capturing her depths and complexity through the voices of those who knew her best. Painstakingly restored, it is an arresting and powerful tale of one of the greatest singers who ever lived, and of Linda Lipnack Kuehl, the woman who would sacrifice her life in trying to tell it.
+        </p>
+        <p>&nbsp;</p>
+     </div>
+      <div className="App-section">
       {/* <br /> */}
         <h5 style={{textAlign: "center", color: "red", fontSize: "1.25em", marginTop: "10px"}}>
           Chick Corea
