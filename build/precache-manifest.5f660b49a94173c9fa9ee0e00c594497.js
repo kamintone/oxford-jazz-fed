@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "9a33932beceb1ff62028",
-    "url": "/static/js/main.2314caf2.chunk.js"
+    "revision": "1536f72805b2446293c6",
+    "url": "/static/js/main.8f641817.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -124,11 +124,11 @@ self.__precacheManifest = [
     "url": "/static/media/shed-of-steele.19f312de.jpg"
   },
   {
-    "revision": "1f818c87995f424da99fabd9f7d70651",
-    "url": "/static/media/electric-lady-big-band.1f818c87.jpg"
+    "revision": "4c4626fb7aa15076129fb67d2b92cdf2",
+    "url": "/static/media/derek-nash.4c4626fb.jpg"
   },
   {
-    "revision": "ef2bcd66e8eb1e6a1ac3e4670f59fffe",
+    "revision": "fc2348ccfddcea92479fc20aa2a5b3a7",
     "url": "/index.html"
   }
 ];

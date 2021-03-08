@@ -2,7 +2,7 @@ import React from 'react';
 // import jfpage1 from './images/jf-OND-2020-1.jpg';
 // import jfpage2 from './images/jf-OND-2020-2.jpg';
 import shed from './images/shed-of-steele.jpg';
-import elbb from './images/electric-lady-big-band.jpg';
+import nash from './images/derek-nash.jpg';
 // import stuart from './images/stuart-henderson.jpg'
 
 function Jazzfinder() {
@@ -31,30 +31,20 @@ function Jazzfinder() {
       </section> */}
       <section className="section">
         <p style={{fontSize: "1em", textAlign: "left", fontWeight: "regular"}}>
-          <span style={{fontWeight: "bold"}}>Sunday, 7 March 2021 from 20:00 UTC<br />
-            Live jazz from <a href="https://www.ronniescotts.co.uk/performances/view/6362-live-streaming-tonight-denny-iletts-electric-lady-big-band?fbclid=IwAR3pLNxcunaafPMAWrhcAcI2-9CpYX4CVVR3phFFwey0hgQ82Td84_f0jbI" target="_blank" rel="noopener noreferrer">Ronnie Scott's Jazz Club</a>:
+          <span style={{fontWeight: "bold"}}>Wednesday, 10 March 2021 7.30pm<br />
+            Live stream from <a href="https://guildfordjazz.org.uk/whats-on/concerts-online/" target="_blank" rel="noopener noreferrer">Guildford Jazz Club</a>:
+            The Derek Nash Quartet with Graham Harvey (piano), George Double (drums) and Marianne Windham (bass)
           </span>
           <p style={{fontSize: "1em", textAlign: "left", fontWeight: "regular"}}>
-            During one of his final interviews in 1970, Jimi Hendrix mused on what the new decade might hold for him artistically; “I would like a big band that I can write and conduct for” was his tantalising answer. Even more tantalising is the fact that he had been in negotiations with the great Gil Evans, a collaboration that would have happened had Jimi not passed away so tragically in September 1970. Fast forward to 2018 where the Electric Lady Big Band was formed to celebrate the 50th anniversary of Hendrix’s 1968 masterpiece Electric Ladyland. Sold out shows at Bristol Jazz and Blues festival, Ronnie Scott’s and Leeds Jazz festival were followed by the band recording the whole suite live in the studio last September.
-          </p>
-          <p style={{fontSize: "1em", textAlign: "left", fontWeight: "regular"}}>
-            Bandleader, guitarist, vocalist, arranger and Hendrix devotee Denny Ilett assembled a 16-piece band of leading UK jazz artists and set about crafting new arrangements on the whole album. Hearing Jimi’s music in this different setting has taken the rock, blues, jazz, funk, soul and psychedelic elements of Electric Ladyland into a whole new area cementing Jimi Hendrix’s stature as a true revolutionary in music.
-          </p>
-          <p style={{fontSize: "1em", textAlign: "left", fontWeight: "regular"}}>
-            Electric Lady Big Band have since expanded their repertoire to include Hendrix compositions from throughout his short, but explosive, career!
+            A vibrant and charismatic performer, British Jazz Award-winning saxophonist <span style={{fontWeight: "bold"}}>Derek Nash</span> is also a bandleader, composer, arranger, record producer and engineer, and one of the UK’s busiest jazz musicians. He is leader of six bands, each with its own unique sound and featuring some of the top jazz musicians in the UK today, has been a member of Jools Holland’s Rhythm and Blues Orchestra since 2004, has led Sax Appeal for over 40 years and is a founder member of the Ronnie Scott’s Blues Explosion.
           </p>
           <div style={{textAlign: "center"}}>
-            <img src={elbb} alt="Electric Lady Big Band" title="Electric Lady Big Band" style={{margin: "0 auto", marginTop: "10px", border: "2px solid darkblue", borderRadius: "0.25em"}} /> 
-            <p style={{fontSize: "1em", textAlign: "center", fontWeight: "regular"}}>
-              Guitar, vocal: Denny Ilett<br />
-              Trumpets: Simon Gardner, Craig Wild, Laura Jurd, Tom Gardner<br />
-              Trombones: Winston Rollins, Ian Bateman, Ashely Slater, Richard Henry<br />
-              Saxophones: Nathaniel Facey, Ben Waghorn, Ruth Hammond, Kevin Figes<br />
-              Keys: Dan Moore<br />
-              Bass: Jerry Soffe<br />
-              Drums: Daisy Palmer<br />
-            </p>
+            <img src={nash} alt="Derek Nash" title="Derek Nash" style={{margin: "0 auto", marginTop: "10px", border: "2px solid darkblue", borderRadius: "0.25em"}} /> 
           </div>
+          <p style={{fontSize: "1em", textAlign: "left", fontWeight: "regular"}}>
+            The performance will be recorded and broadcast live from the Boileroom starting at 7.30pm and finishing shortly before 9pm, followed by a post-gig chat with the band. There are online Chat and Ask A Question features on the livestream site which you can use during the performance to get in touch. Tickets are &pound;10 &ndash; use link above for full information.
+          </p>
+          <p>&nbsp;</p> 
         </p>
       </section>
       <section className="section">
@@ -72,7 +62,7 @@ function Jazzfinder() {
       <section className="section" style={{background: "lightpink", clear: "left"}}>
         <p style={{fontSize: "1em", textAlign: "left", fontWeight: "regular"}}>
           <p>On Friday, 12 February, <span style={{fontWeight: "bold"}}>Ben &amp; Sophie-Jayne Holder</span> presented a livestream of love&ndash;themed swing &amp; jazz, with Ben on violin and (pre&ndash;recorded) piano accompanying Sophie&rsquo;s vocals.</p>
-          <p>If you missed it, you can catch up on YouTube by going to <a href="https://www.youtube.com/user/steppelli" target="_blank" rel="noopener noreferrer">Ben Holder Music</a>, where you'll also find videos of their previous streaming sessions. Well worth a visit! The next one is scheduled for <span style={{fontWeight: "bold"}}>Friday. 12 March</span> &ndash; don&rsquo;t miss it!</p>
+          <p>If you missed it, you can catch up on YouTube by going to <span style={{fontWeight: "bold"}}><a href="https://www.youtube.com/user/steppelli" target="_blank" rel="noopener noreferrer">Ben Holder Music</a></span>, where you'll also find videos of their previous streaming sessions. Well worth a visit! The next one is scheduled for <span style={{fontWeight: "bold"}}>Friday. 12 March</span> &ndash; don&rsquo;t miss it!</p>
           <p>&nbsp;</p> 
         </p>
       </section>
